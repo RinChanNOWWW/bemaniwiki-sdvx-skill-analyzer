@@ -14,6 +14,12 @@ Usage: `python3 gen_wiki.py filename`.
 
 A python script to generate skill analyzer courses wiki source codes.
 
+### crawler.py
+
+Usage: `python3 crawler.py`.
+
+A python crawler script to crawl skill analyzer wiki source codes into `context.txt`.
+
 ### courses
 
 Texts for `gen_wiki.py` to generate codes.
