@@ -2,6 +2,10 @@
 
 A fork of bemaniwiki SDVXV skill analyzer page's wiki source codes. http://bemaniwiki.com/index.php?SOUND%20VOLTEX%20VIVID%20WAVE/SKILL%20ANALYZER
 
+## Github Actions
+
+Run crawler.py every Monday (UTC 00:00) and update this repo.
+
 ## Repo Structure
 
 ### content.txt
