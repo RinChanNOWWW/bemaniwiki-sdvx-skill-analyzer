@@ -31,11 +31,10 @@ jobs:
         python crawler.py
     - name: update repo
       run: |
-        git init
         git config user.name --local $USER_NAME
         git config user.email --local $USER_EMAIL
-        git remote add origin https://$USER_SECRET@github.com/$GITHUB_REPOSITORY.git
         git add content.txt
         git commit -m "$(date +"%Y-%m-%d") update content.txt"
-        git push origin main -f
+        git push
+
         
