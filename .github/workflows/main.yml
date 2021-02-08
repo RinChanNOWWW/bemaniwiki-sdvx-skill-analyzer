@@ -32,8 +32,8 @@ jobs:
         python crawler.py
     - name: update repo
       run: |
-        git config user.name --local $USER_NAME
-        git config user.email --local $USER_EMAIL
+        git config user.name $USER_NAME
+        git config user.email $USER_EMAIL
         git add content.txt
         git commit -m "$(date +"%Y-%m-%d") update content.txt"
         git push
