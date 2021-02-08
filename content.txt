@@ -2,42 +2,42 @@
 #contents
 
 *SKILL ANALYZER [#SKILL_ANALYZER]
--[[公式解説>http://p.eagate.573.jp/game/sdvx/v/p/howto/skill.html]]
+-[[公式解説&gt;http://p.eagate.573.jp/game/sdvx/v/p/howto/skill.html]]
 
 -beatmania IIDXでの段位認定やEXPERT MODE、jubeatでのCOURSE MODEに当たるモード。
 
 **概要 [#overview]
 -全3曲から構成されるコースを3曲連続でプレーし、腕前を測る。
---通常コースはSKILL Level.01～SKILL Level.11、∞の12段階。ただし、Level.11とLevel.∞は出現の条件が存在する(後述)
+--通常コースはSKILL Level.01〜SKILL Level.11、∞の12段階。ただし、Level.11とLevel.∞は出現の条件が存在する(後述)
 --3曲を全て完奏することで''スキル称号''(=文字)を獲得できる。
 --通常コースでは''プレート''(=左下の数字と背景色)も獲得でき、それに応じてLIGHT START時の''選曲制限が緩和''される。
 ---無段位の場合の選曲制限は16→18→20となっている。そのため、''魔騎士以下を取得しても選曲制限は無段位時と変わらない''が、今後再制限される可能性ある。
 
--MIRROR・RANDOMオプションは&color(red){''使用不可''};。選択していてもプレーできるが、譜面には反映されない。
+-MIRROR・RANDOMオプションは&amp;color(red){''使用不可''};。選択していてもプレーできるが、譜面には反映されない。
 
 **手順 [#how_to]
 -今作VIVID WAVEからモード選択の1枠として再び独立になった。モード選択で「SKILL ANALYZER」を選択する事で挑むことができる。
 
--プレー中はゲージが専用の「[[PERMISSIVE RATE>SOUND VOLTEX VIVID WAVE/システム#rate]]」に変わり、ゲージが0.00%((整数部分しか筐体で表示されないが、内部的には小数点以下も計算されている。そのため「表示上0%になったのに生き残った」ということもあり得る))になるとステージ途中でも強制終了、TRACK CRASHとなる。
+-プレー中はゲージが専用の「[[PERMISSIVE RATE&gt;SOUND VOLTEX VIVID WAVE/システム#rate]]」に変わり、ゲージが0.00%((整数部分しか筐体で表示されないが、内部的には小数点以下も計算されている。そのため「表示上0%になったのに生き残った」ということもあり得る))になるとステージ途中でも強制終了、TRACK CRASHとなる。
 
 -今作のSKILL ANALYZERは''LIGHT START限定''となり、STANDARD STARTは選べなくなった。
 --TRACK CRASHした時点でゲーム終了となり、通常選曲への復帰はない。
 --BLASTER ENGRGYが増加しない為EXTRACKは発生しない。
 
 -1曲ごとに従来のモードと同様にオンラインマッチングが行われる。その間にHi-SPEEDの調整も可能。
---受験中のプレーヤーのRATE STYLE表記は"<S>"と表示される。
---「マッチングアシスト」のマークがついているSKILL LV.01～07は他プレーヤーとマッチングするとゲージが10%回復する。(マッチング人数によらない)
+--受験中のプレーヤーのRATE STYLE表記は&quot;&lt;S&gt;&quot;と表示される。
+--「マッチングアシスト」のマークがついているSKILL LV.01〜07は他プレーヤーとマッチングするとゲージが10%回復する。(マッチング人数によらない)
 
--1曲終了ごとにリザルト画面が表示され、[[BONUS>SOUND VOLTEX VIVID WAVE/BONUS]]も獲得できる。
+-1曲終了ごとにリザルト画面が表示され、[[BONUS&gt;SOUND VOLTEX VIVID WAVE/BONUS]]も獲得できる。
 --各楽曲の成績のクリアメダルはULTIMATE CHAINもしくはPERFECTのみ保存され、1つでもERRORを出してしまうとTRACK CRASHと同じ扱いになる。また、初プレーの場合は暗い「C」のマークがつく。
 
--3曲完奏で合格となり、[[報酬>#rewards]]を獲得できる。
+-3曲完奏で合格となり、[[報酬&gt;#rewards]]を獲得できる。
 
--トータルリザルト画面では達成率が表示される。達成率は不合格で0～99%、合格で100～200%の範囲となる。(端数切り捨ての整数表記)
+-トータルリザルト画面では達成率が表示される。達成率は不合格で0〜99%、合格で100〜200%の範囲となる。(端数切り捨ての整数表記)
 --合格時の達成率は100+(3曲のスコアの平均-900万)/1万。ただし、スコア平均が900万未満の場合は一律100%。
 --不合格時の達成率は{33(.3)%×完奏した曲数}+途中でTRACK CRASHした曲は33(.3)%×(TRACK CRASH時点の小節数or時間の割合)。
 
-|>|成績|達成率|備考|h
+|&gt;|成績|達成率|備考|h
 |CENTER:|CENTER:|CENTER:||c
 |分析失敗|1曲完奏|33%|CENTER:-|
 |~|2曲完奏|66%|CENTER:-|
@@ -67,18 +67,18 @@
 
 |枠の状態|条件|h
 |CENTER:||c
-|なし|なし&br;通常コースが新規に追加されると全員この状態にリセットされる|
-|銀枠(羽付き)|自己ベストのSKILL LEVELの「最新コース」に合格している&br;最新回がA～Cのように複数ある場合、いずれか1つに合格すればよい|
-|金枠|自己ベストのSKILL LEVELの「全てのコース」に合格している&br;1つの回に複数コースがある場合もすべて合格する必要がある|
-|金枠(後光付き)|自己ベストのSKILL LEVELの全てのコースの達成率が基準値以上になっている((コース選択画面では平均達成率が表示されているが、平均達成率は後光の条件ではない))&br;基準値は暴龍天170%、或帝滅斗160%、剛力羅150%、魔騎士以下130%|
+|なし|なし&amp;br;通常コースが新規に追加されると全員この状態にリセットされる|
+|銀枠(羽付き)|自己ベストのSKILL LEVELの「最新コース」に合格している&amp;br;最新回がA〜Cのように複数ある場合、いずれか1つに合格すればよい|
+|金枠|自己ベストのSKILL LEVELの「全てのコース」に合格している&amp;br;1つの回に複数コースがある場合もすべて合格する必要がある|
+|金枠(後光付き)|自己ベストのSKILL LEVELの全てのコースの達成率が基準値以上になっている((コース選択画面では平均達成率が表示されているが、平均達成率は後光の条件ではない))&amp;br;基準値は暴龍天170%、或帝滅斗160%、剛力羅150%、魔騎士以下130%|
 
--初完奏時に[[BONUS>SOUND VOLTEX VIVID WAVE/BONUS]]を獲得できる。
+-初完奏時に[[BONUS&gt;SOUND VOLTEX VIVID WAVE/BONUS]]を獲得できる。
 --1コース目:512Pcb、2コース目:256Pcb、3コース目以降:128Pcb(コース数は「第○回・△コース」の中でカウント)
 --既に完奏しているコースを再度完奏してもボーナスは入らない。
 
 **Tips [#Tips]
 -SKILL LV.11(或帝滅斗)・SKILL LV.∞(暴龍天)は「''1つ下の段位の金枠の取得(=全コースの合格)または挑戦する段位そのものの取得''」かつ「''コースに含まれる譜面全てのインプット''」を満たしているコースのみ選択画面に出現し、挑戦できる。
---1つ下の段位の金枠を取得したことがあっても''次の更新で枠がなくなる(=コースが追加される)と、&color(red){挑戦権が剥奪され、1つ下の段位の金枠を再び取得するまでは或帝滅斗・暴龍天に挑戦できなくなる};''。~
+--1つ下の段位の金枠を取得したことがあっても''次の更新で枠がなくなる(=コースが追加される)と、&amp;color(red){挑戦権が剥奪され、1つ下の段位の金枠を再び取得するまでは或帝滅斗・暴龍天に挑戦できなくなる};''。~
 例:第4回までの剛力羅コースを全てクリアしていても第5回以降に未クリアの剛力羅コースがあると、第4回或帝滅斗への挑戦権は得られない。
 ---挑戦する段位そのものを取得していれば、次の更新で1つ下の段位が追加されても挑戦権が剥奪されることはない。~
 例:第4回で或帝滅斗コースを1つでもクリアしていれば、以後未クリアの剛力羅コースが追加されても或帝滅斗への挑戦権は保持されたままである。
@@ -101,9 +101,9 @@
 
 **課題曲リスト[#task_list]
 
-|回数|更新日|>|>|>|>|コース数|h
-|~|~|>|>|通常コース|特殊コース|計|
-|~|~|01～10|11|∞|~|~|
+|回数|更新日|&gt;|&gt;|&gt;|&gt;|コース数|h
+|~|~|&gt;|&gt;|通常コース|特殊コース|計|
+|~|~|01〜10|11|∞|~|~|
 |CENTER:||CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
 |第1回|2019/02/28|各3|2|2|-|34|
 |BGCOLOR(#CCC):お花見2019|2019/04/01|-|-|-|3|3|
@@ -118,10 +118,10 @@
 |第5回|2020/08/13|各1|1|1|-|12|
 |第6回|2020/11/19|各1|1|1|-|12|
 |BGCOLOR(#CCC):The 10th KAC|2020/12/24|-|-|-|4|4|
-|>|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):90&br;(9×10)|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):13|BGCOLOR(yellow):119|
+|&gt;|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):90&amp;br;(9×10)|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):13|BGCOLOR(yellow):119|
 
 //テンプレート
-//|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
+//|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
 //|01||BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):|
 //|02||BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):|
 //|FINAL||BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):|
@@ -131,601 +131,601 @@
 //|FINAL||BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):|
 //|FINAL||BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):|
 
-***&color(white,brown){SKILL ANALYZER Level.01 岳翔}; [#lv01]
-''岳翔'' / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:6～7
--マッチングアシスト:&color(red){あり};
+***&amp;color(white,brown){SKILL ANALYZER Level.01 岳翔}; [#lv01]
+''岳翔'' / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:6〜7
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(brown):COLOR(white):SKILL LV.01 &size(16){岳翔};|h
+|&gt;|&gt;|&gt;|BGCOLOR(brown):COLOR(white):SKILL LV.01 &amp;size(16){岳翔};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|Help me, ERINNNNNN!! -Cranky remix-|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|ヒミツダイヤル|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|neko＊neko|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|Akzeriyyuth|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|SO FLY ME TO YOU|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|少女救世論|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|Pon-Pon-Pompoko Dai-Sen-Saw!|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|It's a new day!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Alice Maestera|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
-|01|混乱少女&#9829;そふらんちゃん!!|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|01|混乱少女&amp;#9829;そふらんちゃん!!|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|虚空と光明のディスクール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|ナナイロ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|香港功夫大旋風|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|ハッピーシンセサイザ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Ha･lle･lu･jah|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|SAtAN|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
-|02|DIABLOSIS::N&#257;ga|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|02|DIABLOSIS::N&amp;#257;ga|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |FINAL|THE凸GENERATOR|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|無魎大数|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|Chrono Diver -PENDULUMs-|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |FINAL|逆月|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|Aurolla|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|夢の空、約束の場所|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|FREEDOM DiVE|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Afterimage d'automne|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|殯|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|春色ポートレート|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):7|
 
-***&color(white,navy){SKILL ANALYZER Level.02 流星}; [#lv02]
-[[岳翔>#lv01]] / ''流星'' / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:7～8
--マッチングアシスト:&color(red){あり};
+***&amp;color(white,navy){SKILL ANALYZER Level.02 流星}; [#lv02]
+[[岳翔&gt;#lv01]] / ''流星'' / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:7〜8
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(navy):COLOR(white):SKILL LV.02 &size(16){流星};|h
+|&gt;|&gt;|&gt;|BGCOLOR(navy):COLOR(white):SKILL LV.02 &amp;size(16){流星};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|iLLness LiLin|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|Technical Master|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Innocent Eyes|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
-|01|HE4VEN ～天国へようこそ～|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|HE4VEN 〜天国へようこそ〜|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|Claidheamh Soluis-光の剣- feat.はるの|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|FINAL|One & Only|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|FINAL|One &amp; Only|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|FREEDOM DiVE|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|VAMPIRE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|The willow and snow|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|シリョクケンサ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|交渉人・西行寺幽々子 vs スカーレット警察|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|「月風魔伝」龍骨鬼戦 yks Remix|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|PULSE LASER|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|隅田川夏恋歌 (I/O Angel mix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|cloud|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|Triple Counter|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|Two of Us|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|シュガーソングとビターステップ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|Rebellio|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|オトゲラヴ！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|地球防衛乙女パンナコッター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|メランコリック|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|Silent Story|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|湖底遺跡のヴィダー・ハル|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|STARDUST MERMAID|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|POP TEAM EPIC|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|バイナリスター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 
-***&color(black,#fcc800){SKILL ANALYZER Level.03 月衝}; [#lv03]
-[[岳翔>#lv01]] / [[流星>#lv02]] / ''月衝'' / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:9～10
--マッチングアシスト:&color(red){あり};
+***&amp;color(black,#fcc800){SKILL ANALYZER Level.03 月衝}; [#lv03]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / ''月衝'' / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:9〜10
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#fcc800):COLOR(black):SKILL LV.03 &size(16){月衝};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#fcc800):COLOR(black):SKILL LV.03 &amp;size(16){月衝};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|fancy cake!!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|恋繋エピローグ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|シノビシノノメ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|スペクトラム|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Gaze ft. 紫崎 雪|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Ultimate Fury|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|lost chain|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Sakura Mirage -Drum'n World-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|スピーカーガール！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|激アツ☆マジヤバ☆チアガール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|ロンロンへ　ライライライ！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |Final|フラッター現象の顛末と単一指向性の感情論|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|君がいる場所へ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|ZEPHYRANTHES|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|アルストロメリア KURO-HACO Remix|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|君の知らない物語|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|ハレ晴レユカイ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|もってけ！セーラーふく|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|ようこそジャパリパークへ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|シープドリーミン|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Hi-Fi!!双子'S|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|すろぉもぉしょん|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|ドゥンガドゥンガ狂詩曲|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Root Consciousness|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Mist Tek|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|回レ！雪月花 (Heart's Cry Remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|幽玄の桜|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 
-***&color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#lv04]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / ''瞬光'' / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:10～11
--マッチングアシスト:&color(red){あり};
+***&amp;color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#lv04]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / ''瞬光'' / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:10〜11
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#d4d9dc):COLOR(black):SKILL LV.04 &size(16){瞬光};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#d4d9dc):COLOR(black):SKILL LV.04 &amp;size(16){瞬光};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|あれこれそれどれ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Dark Matter|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|爆なな☆てすとロイヤー|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|Mami Mami Zone|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Parousia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|好きトキメキとキス|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|GRISAILLE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Virtual Bit|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|FINAL|UROB&#216;ROS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|FINAL|UROB&amp;#216;ROS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|僕は空気が嫁ない|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|断片Story|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|人生リセットボタン|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|Ignited Night Burst|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Poison Blood|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|FINAL|Love&#9825;sicK|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|FINAL|Love&amp;#9825;sicK|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|ドゥンガドゥンガ狂詩曲|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|妄想税|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|Believe (y)our Wings {GRA5P WAVES}|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|Paradisus-Paradoxum|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|empty|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|bistro twins☆☆☆|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|Hi-Fi!!双子'S|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|ハイスピヰド・ランパンシヰ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|ぼくらの16bit戦争|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|tricky trick|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|{albus}|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|120秒のエンドロール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 
-***&color(white,deepskyblue){SKILL ANALYZER Level.05 天極}; [#lv05]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / ''天極'' / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:12～13
--マッチングアシスト:&color(red){あり};
+***&amp;color(white,deepskyblue){SKILL ANALYZER Level.05 天極}; [#lv05]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / ''天極'' / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:12〜13
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(deepskyblue):COLOR(white):SKILL LV.05 &size(16){天極};|h
+|&gt;|&gt;|&gt;|BGCOLOR(deepskyblue):COLOR(white):SKILL LV.05 &amp;size(16){天極};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|Goddess Bless you|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Beyond the BLUE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Lovesick Lovetune|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|パ→ピ→プ→Yeah!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Divine's or Deal|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|ZEPHYRANTHES|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|ファイナルレター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|New Leaf|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|キズナ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|The star in eclipse|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Shadows in the Light|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|.59 -BOOTH BOOST REMIX-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|ハローラフター|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|サンドリヨン|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|ツギハギスタッカート|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|Lunatic Sprinter|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Sayonara Planet Wars|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Little Big Princess(DJ katsu EDIT)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|革命パッショネイト|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|び|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|GALAXY BURST|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|MARENOL|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|朱と碧のランページ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Atropa bella-donna|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Ray|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|木彫り鯰と右肩ゾンビ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|見世物ライフ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 
-***&color(white,#25b7c0){SKILL ANALYZER Level.06 烈風}; [#lv06]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / ''烈風'' / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
+***&amp;color(white,#25b7c0){SKILL ANALYZER Level.06 烈風}; [#lv06]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / ''烈風'' / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
 -対象トラックレベル:14
--マッチングアシスト:&color(red){あり};
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#25b7c0):COLOR(white):SKILL LV.06 &size(16){烈風};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#25b7c0):COLOR(white):SKILL LV.06 &amp;size(16){烈風};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|Arcade Prison|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|No way|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|3y3s (JMBS FUNKOT RMX)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|Time to Air (jazz it up style)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|02|Li&#233;vre -blanche-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|Li&amp;#233;vre -blanche-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Finale|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|狂騒こども節|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Vigor|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|WONDER_WOBBLER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|都会征服Girls☆|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|不思議玩具ガンガラディンドン|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|RED ZONE NeoClassical Party Remix|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|Foolish Hero|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Erlung|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Blue Rain Dustboxxxx RMX|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|Sacrifice Escape: 不条理の模倣による感情と代償|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|分けるな危険！モモモモモモーイズム|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|全力ハッピーライフ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
-|01|怪盗Ｆの台本～消えたダイヤの謎～|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|01|怪盗Ｆの台本〜消えたダイヤの謎〜|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Tribal Trial|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Quark|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|Believe (y)our Wings {V:IVID RAYS}|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|魔境堕天録サリエル|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|cobalt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|真夏の海の修道女|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|ロキ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|君色サブリミナル(Arranged: Iceon)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 
-***&color(white,#f73562){SKILL ANALYZER Level.07 雷電}; [#lv07]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / ''雷電'' / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
+***&amp;color(white,#f73562){SKILL ANALYZER Level.07 雷電}; [#lv07]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / ''雷電'' / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
 -対象トラックレベル:15
--マッチングアシスト:&color(red){あり};
+-マッチングアシスト:&amp;color(red){あり};
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#f73562):COLOR(white):SKILL LV.07 &size(16){雷電};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#f73562):COLOR(white):SKILL LV.07 &amp;size(16){雷電};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|RHYZING BEAT|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Zelophilia|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|リカーシブ・ファンクション|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|The Formula|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|のぼれ八坂坂！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|ALTONA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|極彩天奏|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Coldlapse|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Nexta|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|Rings of Rainbow|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Mermaid girl (Tropical Remix)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Voice 2 Voice|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|Mother Ship (C-YA MIX)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|弾幕注意報2014|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|LittleGameStar|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|アオアラシ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Sharkbait|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Evans|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|BREAKNECK NY☆N! NY★N!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Poppin’Cats!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|ネコクマウササー|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|ゆりゆららららゆるゆり大事件（yuzen remix）|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|仙酌絶唱のファンタジア|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Cepheus|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|ミライプリズム|BGCOLOR(#e2a):''INF''|BGCOLOR(#fce):15|
 |02|MilK|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|無魎大数|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 
-***&color(white,#ff69b4){SKILL ANALYZER Level.08 麗華}; [#lv08]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / ''麗華'' / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:15～16
+***&amp;color(white,#ff69b4){SKILL ANALYZER Level.08 麗華}; [#lv08]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / ''麗華'' / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:15〜16
 -マッチングアシスト:なし
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#ff69b4):COLOR(white):SKILL LV.08 &size(16){麗華};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#ff69b4):COLOR(white):SKILL LV.08 &amp;size(16){麗華};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|Divine's:Bugscript|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Lowermost revolt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|Destroy|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|Cepheus|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|02|Solitude & Nightmare|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|Solitude &amp; Nightmare|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|双星ルミネセンス|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|Boss Rush|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Renegade Fruits|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|しゅわスパ大作戦☆ (カシオれ！くーにゃんリミックス)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|Le ××××|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|いーあるふぁんくらぶ|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):16|
 |FINAL|囲い無き世は一期の月影|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|はわわｗ！な展開っ！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|深海シティアンダーグラウンド|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|孤独の番人|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|仙酌絶唱のファンタジア|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|翠雨の祷|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|真っ白な靴|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|Chocolate Parade|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|eighth-slave|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|ARROW RAIN|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|打打打打打打打打打打|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|ローリンガール|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |Final|GALAXY BURST|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|セツナトリップ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|鬼KYOKAN|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|only my railgun|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 
-***&color(black,#e5eeff){SKILL ANALYZER Level.09 魔騎士}; [#lv09]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / ''魔騎士'' / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:16～17
+***&amp;color(black,#e5eeff){SKILL ANALYZER Level.09 魔騎士}; [#lv09]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / ''魔騎士'' / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:16〜17
 -マッチングアシスト:なし
 -後光:達成率130%(スコア平均930万・合計2790万)以上
 -LIGHT START時の選曲制限:16→18→20
 
-|>|>|>|BGCOLOR(#e5eeff):COLOR(black):SKILL LV.09 &size(16){魔騎士};|h
+|&gt;|&gt;|&gt;|BGCOLOR(#e5eeff):COLOR(black):SKILL LV.09 &amp;size(16){魔騎士};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|Random Box|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|嘘とぬいぐるみ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|ILL-STARRED DIVER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|Blue Fire|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Fairy in Strasbourg|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|SUPER BUBBLE JOURNEY|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|マトリョシカ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Root Consciousness|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|廃獄ドリームランド|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|Never Regret Anything|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|PANIC HOLIC|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|インビジブル|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|FIRE FIREは電気スウィングの夢を見るか？|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|裏表ラバーズ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|JULIAN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|アライヴ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Glorious Journey|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ヒミツダイヤル|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|FIRST：DREAMS|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|Together Going My Way|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Inscape|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|eternita|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|ウエンレラの氷華|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ヒトリゴト|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Onigo|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|C18H27NO3|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|Backflow|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 
-***&color(black,yellow){SKILL ANALYZER Level.10 剛力羅}; [#lv10]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / ''剛力羅'' / [[或帝滅斗>#lv11]] / [[暴龍天>#lv_infinite]]
--対象トラックレベル:17～18
+***&amp;color(black,yellow){SKILL ANALYZER Level.10 剛力羅}; [#lv10]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / ''剛力羅'' / [[或帝滅斗&gt;#lv11]] / [[暴龍天&gt;#lv_infinite]]
+-対象トラックレベル:17〜18
 -マッチングアシスト:なし
 -後光:達成率150%(スコア平均950万・合計2850万)以上
 -LIGHT START時の選曲制限:17→19→20
 
-|>|>|>|BGCOLOR(yellow):COLOR(black):SKILL LV.10 &size(16){剛力羅};|h
+|&gt;|&gt;|&gt;|BGCOLOR(yellow):COLOR(black):SKILL LV.10 &amp;size(16){剛力羅};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
 |01|VOLTEXES IV|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|ゴーストルール|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Night Rockin' Bird|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
 |01|PIERROT KNIfE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Line 4 Ruin -kohumix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|KIMIDORI Streak!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
 |01|JUGGLE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Chocolate Planet|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Booth of Fighters|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
 |01|ムーニャポヨポヨスッポコニャーゴ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|The star in eclipse|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Quietus Ray|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
 |01|Triple Counter|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|The world of sound|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|ほおずき程度には赤い頭髪|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|Bye or not|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|悪戯センセーション|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|FINAL|Enchant&#233;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|FINAL|Enchant&amp;#233;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
 |01|Sacrifice Escape: 不条理の模倣による感情と代償|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Sharkbait|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|量子の海のリントヴルム|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|Mischievous theater|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Halcyon|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|恋歌疾風！かるたクイーンいろは|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Impress (bansou Remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|ふ・れ・ん・ど・し・た・い（WEREHEREMIX)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Poison AND÷OR Affection|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 
 
-***&color(#fcdac7,red){SKILL ANALYZER Level.11 或帝滅斗}; [#lv11]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / ''或帝滅斗'' / [[暴龍天>#lv_infinite]]
--挑戦条件:「''剛力羅の金枠の取得(=全コースの合格)または或帝滅斗の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述>#tips]])
--対象トラックレベル:18～19
+***&amp;color(#fcdac7,red){SKILL ANALYZER Level.11 或帝滅斗}; [#lv11]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / ''或帝滅斗'' / [[暴龍天&gt;#lv_infinite]]
+-挑戦条件:「''剛力羅の金枠の取得(=全コースの合格)または或帝滅斗の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述&gt;#tips]])
+-対象トラックレベル:18〜19
 -マッチングアシスト:なし
 -後光:達成率160%(スコア平均960万・合計2880万)以上
 -LIGHT START時の選曲制限:18→20→20
 
-|>|>|>|>|BGCOLOR(red):COLOR(#fcdac7):SKILL LV.11 &size(16){或帝滅斗};|h
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(red):COLOR(#fcdac7):SKILL LV.11 &amp;size(16){或帝滅斗};|h
 |TRACK|曲名|難易度|Lv|解禁条件(参考)|h
 |CENTER:||CENTER:COLOR(white):|CENTER:||c
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
-|01|BLACK or WHITE?|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;For UltraPlayersロード 4曲目|
-|02|オニユリ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
-|FINAL|Ganymede kamome mix|BGCOLOR(#e3d):''INF''|BGCOLOR(#fce):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
-|01|スラッシュ//シスターズ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|BLACK or WHITE?|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;For UltraPlayersロード 4曲目|
+|02|オニユリ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
+|FINAL|Ganymede kamome mix|BGCOLOR(#e3d):''INF''|BGCOLOR(#fce):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|スラッシュ//シスターズ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
 |02|GERBERA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|snow storm -euphoria-|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
-|01|End to end|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;Lachryma《Re:Queen’M》ロード 4曲目|
-|02|LegenD.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;World's endロード 3曲目|
+|FINAL|snow storm -euphoria-|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|01|End to end|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;Lachryma《Re:Queen’M》ロード 4曲目|
+|02|LegenD.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;World's endロード 3曲目|
 |FINAL|INF-B《L-aste-R》|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
-|01|GEOMETRIA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;Prayerロード 3曲目|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|01|GEOMETRIA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;Prayerロード 3曲目|
 |02|キュリオシティ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|NEO TREASON|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
-|01|Sakura Reflection (P*Light Slayer Remix)|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|Reb∞t|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|FINAL|音楽 -resolve-|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
-|01|Xicholauncher|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;THE凸GENERATORロード 2曲目|
-|02|pique|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.8|
-|FINAL|神話に芽吹く|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.3|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|FINAL|NEO TREASON|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|01|Sakura Reflection (P*Light Slayer Remix)|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|Reb∞t|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|FINAL|音楽 -resolve-|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|01|Xicholauncher|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;THE凸GENERATORロード 2曲目|
+|02|pique|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.8|
+|FINAL|神話に芽吹く|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.3|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
 |01|On take SUN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|02|Mirrorwall|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.1|
+|02|Mirrorwall|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.1|
 |FINAL|Venomous Firefly|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Divine's or Deal|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|02|上海紅茶館 ～ Chinese Tea Orchid Remix|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|上海紅茶館 〜 Chinese Tea Orchid Remix|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
 |FINAL|HAVOX|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
 
-***&color(yellow,midnightblue){SKILL ANALYZER Level.∞ 暴龍天}; [#lv_infinite]
-[[岳翔>#lv01]] / [[流星>#lv02]] / [[月衝>#lv03]] / [[瞬光>#lv04]] / [[天極>#lv05]] / [[烈風>#lv06]] / [[雷電>#lv07]] / [[麗華>#lv08]] / [[魔騎士>#lv09]] / [[剛力羅>#lv10]] / [[或帝滅斗>#lv11]] / ''暴龍天''
--挑戦条件:「''或帝滅斗の金枠の取得(=全コースの合格)または暴龍天の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述>#tips]])
--対象トラックレベル:19～20
+***&amp;color(yellow,midnightblue){SKILL ANALYZER Level.∞ 暴龍天}; [#lv_infinite]
+[[岳翔&gt;#lv01]] / [[流星&gt;#lv02]] / [[月衝&gt;#lv03]] / [[瞬光&gt;#lv04]] / [[天極&gt;#lv05]] / [[烈風&gt;#lv06]] / [[雷電&gt;#lv07]] / [[麗華&gt;#lv08]] / [[魔騎士&gt;#lv09]] / [[剛力羅&gt;#lv10]] / [[或帝滅斗&gt;#lv11]] / ''暴龍天''
+-挑戦条件:「''或帝滅斗の金枠の取得(=全コースの合格)または暴龍天の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述&gt;#tips]])
+-対象トラックレベル:19〜20
 -マッチングアシスト:なし
 -後光:達成率170%(スコア平均970万・合計2910万)以上
 -LIGHT START時の選曲制限:20→20→20(制限無し)
 
-|>|>|>|>|BGCOLOR(midnightblue):COLOR(yellow):SKILL LV.∞ &size(16){暴龍天};|h
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(midnightblue):COLOR(yellow):SKILL LV.∞ &amp;size(16){暴龍天};|h
 |TRACK|曲名|難易度|Lv|解禁条件(参考)|h
 |CENTER:||CENTER:COLOR(white):|CENTER:||c
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
-|01|Deadly force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.1|
-|02|X&#233;roa|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.4最終解禁曲|
-|FINAL|Σmbry&#248;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.6最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
-|01|Sailing Force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;iLLness LiLinロード 4曲目|
-|02|Fly Like You|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
-|FINAL|*Feels Seasickness...*|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.6最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
-|01|Lord=Crossight|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|Black Emperor|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|FINAL|HE4VEN ～天国へようこそ～|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&br;HE4VEN ～天国へようこそ～ロード 5曲目|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
-|01|月光乱舞|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|BLACK or WHITE?|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&br;BLACK or WHITE?ロード 4曲目|
-|FINAL|iLLness LiLin|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;iLLness LiLinロード 5曲目|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Deadly force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.1|
+|02|X&amp;#233;roa|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.4最終解禁曲|
+|FINAL|Σmbry&amp;#248;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.6最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|Sailing Force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;iLLness LiLinロード 4曲目|
+|02|Fly Like You|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
+|FINAL|*Feels Seasickness...*|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.6最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Aコース''|
+|01|Lord=Crossight|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|Black Emperor|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|FINAL|HE4VEN 〜天国へようこそ〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&amp;br;HE4VEN 〜天国へようこそ〜ロード 5曲目|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回 Bコース''|
+|01|月光乱舞|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|BLACK or WHITE?|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&amp;br;BLACK or WHITE?ロード 4曲目|
+|FINAL|iLLness LiLin|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;iLLness LiLinロード 5曲目|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
 |01|逆月|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
-|02|THE凸GENERATOR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;THE凸GENERATORロード 5曲目|
-|FINAL|Σg&#216;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.7最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第4回''|
-|01|ANGER of the GOD|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]|
-|02|θコトノハθカプセルθ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.8|
-|FINAL|666|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER>SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&br;幻想御伽篇最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第5回''|
-|01|9TH5IN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER>SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&br;幻想御伽篇|
-|02|セイレーン ～悲壮の竪琴～|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.1|
-|FINAL|VVelcome!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER>SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&br;狂騒サーカス篇最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''第6回''|
-|01|LubedeR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER>SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&br;狂騒サーカス篇|
-|02|Last Resort|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.3|
-|FINAL|MAYHEM|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER>SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&br;侵寇の王女篇最終解禁曲|
+|02|THE凸GENERATOR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;THE凸GENERATORロード 5曲目|
+|FINAL|Σg&amp;#216;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.7最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回''|
+|01|ANGER of the GOD|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]|
+|02|θコトノハθカプセルθ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.8|
+|FINAL|666|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&amp;br;幻想御伽篇最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回''|
+|01|9TH5IN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&amp;br;幻想御伽篇|
+|02|セイレーン 〜悲壮の竪琴〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.1|
+|FINAL|VVelcome!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&amp;br;狂騒サーカス篇最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|01|LubedeR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&amp;br;狂騒サーカス篇|
+|02|Last Resort|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.3|
+|FINAL|MAYHEM|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX VIVID WAVE/HEXA DIVER]]&amp;br;侵寇の王女篇最終解禁曲|
 
 
 
 **特殊コース [#special_course]
 ***BEMANI MASTER KOREA [#BMK2019]
 -開催期間
---予選:2019/04/03 10:00～2019/04/16 18:00
+--予選:2019/04/03 10:00〜2019/04/16 18:00
 
 -韓国で開催されるUNIANA(コナミの韓国代理店)公式大会「BEMANI MASTER KOREA 2019」にエントリーしていると出現するコース。
 --韓国在住者でエントリーしていても韓国版以外でプレーしている場合は出現しない。
---予選概要:[[概要>http://www.uniana.com/bmk/sdvx/index.html]]
+--予選概要:[[概要&gt;http://www.uniana.com/bmk/sdvx/index.html]]
 
 -予選コースを完走した場合、特別スキル称号「''BMK2019''」を獲得できる。
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):''BEMANI MASTER KOREA 2019''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''BEMANI MASTER KOREA 2019''|
 |01|Lowermost revolt|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |02|On take SUN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |FINAL|FREEDOM DiVE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|
 
 ***お花見コース2019 [#OHANAMI2019]
--2019/04/01限定でプレーできたコース。&color(red){''現在はプレー不可''};。
+-2019/04/01限定でプレーできたコース。&amp;color(red){''現在はプレー不可''};。
 --いずれかのコースを完走すると特別スキル称号「''U.S.O.''」を獲得できる。
 ---構成楽曲の頭文字を並べるとUSO(嘘)になる
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):''お花見コース2019【梅】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''お花見コース2019【梅】''|
 |01|Ultimate Ascension|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|SACRIFICE feat.ayame|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):5|
 |FINAL|Opium and Purple haze|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):5|
-|>|>|>|BGCOLOR(#C7E7FF):''お花見コース2019【竹】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''お花見コース2019【竹】''|
 |01|Ultimate Ascension|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|SACRIFICE feat.ayame|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|Opium and Purple haze|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):''お花見コース2019【松】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''お花見コース2019【松】''|
 |01|Ultimate Ascension|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|
 |02|SACRIFICE feat.ayame|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |FINAL|Opium and Purple haze|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|
@@ -738,12 +738,12 @@ The 9th KACのSOUND VOLTEX部門にエントリーすると出現。
 
 |TRACK|曲名|難易度|Lv|KAC予選集計対象期間|h
 |CENTER:||COLOR(white):CENTER:|CENTER:||c
-|>|>|>|>|CENTER:BGCOLOR(#C7E7FF):''The 9th KACチャレンジコース【蘭華】''|
-|01|ランカーキラーガール|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2019/11/27 10:00&br;～2020/01/07 18:00|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 9th KACチャレンジコース【蘭華】''|
+|01|ランカーキラーガール|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2019/11/27 10:00&amp;br;〜2020/01/07 18:00|
 |02|GODHEART|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 |FINAL|Last Resort|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
-|>|>|>|>|CENTER:BGCOLOR(#C7E7FF):''The 9th KACチャレンジコース【綺羅】''|
-|01|Call of the World|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2019/12/11 10:00&br;～2020/01/07 18:00|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 9th KACチャレンジコース【綺羅】''|
+|01|Call of the World|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2019/12/11 10:00&amp;br;〜2020/01/07 18:00|
 |02|Cross Fire|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 |FINAL|A Lasting Promise|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 
@@ -753,11 +753,11 @@ The 9th KACのSOUND VOLTEX部門にエントリーすると出現。
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):''The 9th KACエンジョイコース【蘭華】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''The 9th KACエンジョイコース【蘭華】''|
 |01|ランカーキラーガール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|GODHEART|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
 |FINAL|Last Resort|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
-|>|>|>|BGCOLOR(#C7E7FF):''The 9th KACエンジョイコース【綺羅】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''The 9th KACエンジョイコース【綺羅】''|
 |01|Call of the World|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |02|Cross Fire|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
 |FINAL|A Lasting Promise|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
@@ -772,19 +772,19 @@ The 9th KACのSOUND VOLTEX部門にエントリーすると出現。
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):''八周年記念コース(NOV)''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''八周年記念コース(NOV)''|
 |01|Gate of Atlantis|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|eighth-slave|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |FINAL|び|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
-|>|>|>|BGCOLOR(#C7E7FF):''八周年記念コース(ADV)''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''八周年記念コース(ADV)''|
 |01|Gate of Atlantis|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |02|eighth-slave|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|び|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|>|>|>|BGCOLOR(#C7E7FF):''八周年記念コース(EXH)''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''八周年記念コース(EXH)''|
 |01|Gate of Atlantis|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|eighth-slave|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|び|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):''八周年記念コース(MXM)''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''八周年記念コース(MXM)''|
 |01|Gate of Atlantis|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |02|eighth-slave|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |FINAL|び|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
@@ -799,12 +799,12 @@ The 10th KACのSOUND VOLTEXにエントリーすると、エントリーした�
 
 |TRACK|曲名|難易度|Lv|KAC予選集計対象期間|h
 |CENTER:||COLOR(white):CENTER:|CENTER:||c
-|>|>|>|>|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【フリー部門】''|
-|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&br;～%%2021/02/02 18:00%% → &color(red){終了日時未定};|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【フリー部門】''|
+|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&amp;br;〜%%2021/02/02 18:00%% → &amp;color(red){終了日時未定};|
 |02|IX|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|~|
 |FINAL|ЯeviveR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
-|>|>|>|>|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【女性部門】''|
-|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&br;～%%2021/02/02 18:00%% → &color(red){終了日時未定};|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【女性部門】''|
+|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&amp;br;〜%%2021/02/02 18:00%% → &amp;color(red){終了日時未定};|
 |02|9TH5IN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 |FINAL|θコトノハθカプセルθ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 
@@ -814,318 +814,318 @@ The 10th KACのSOUND VOLTEXにエントリーすると、エントリーした�
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
-|>|>|>|BGCOLOR(#C7E7FF):''The 10th KACエンジョイコース【フリー部門】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''The 10th KACエンジョイコース【フリー部門】''|
 |01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|IX|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |FINAL|ЯeviveR|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
-|>|>|>|BGCOLOR(#C7E7FF):''The 10th KACエンジョイコース【女性部門】''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''The 10th KACエンジョイコース【女性部門】''|
 |01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|9TH5IN|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
 |FINAL|θコトノハθカプセルθ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
 
 **中国版課題曲リスト [#task_list_cn]
 
-|回数|更新日|>|>|>|コース数|h
-|~|~|01～10|11|∞|計|
+|回数|更新日|&gt;|&gt;|&gt;|コース数|h
+|~|~|01〜10|11|∞|計|
 |CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
 |第1回|2019/11/11|各3|-|-|30|
 |~|2020/06/??|-|2|2|4|
-|>|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):30|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):2|BGCOLOR(yellow):34|
+|&gt;|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):30|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):2|BGCOLOR(yellow):34|
 
 ***岳翔~剛力羅 [#lower_levels_cn]
-[[岳翔>#lv01_cn]] / [[流星>#lv02_cn]] / [[月衝>#lv03_cn]] / [[瞬光>#lv04_cn]] / [[天極>#lv05_cn]] / [[烈風>#lv06_cn]] / [[雷電>#lv07_cn]] / [[麗華>#lv08_cn]] / [[魔騎士>#lv09_cn]] / [[剛力羅>#lv10_cn]]
+[[岳翔&gt;#lv01_cn]] / [[流星&gt;#lv02_cn]] / [[月衝&gt;#lv03_cn]] / [[瞬光&gt;#lv04_cn]] / [[天極&gt;#lv05_cn]] / [[烈風&gt;#lv06_cn]] / [[雷電&gt;#lv07_cn]] / [[麗華&gt;#lv08_cn]] / [[魔騎士&gt;#lv09_cn]] / [[剛力羅&gt;#lv10_cn]]
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|>|>|>|BGCOLOR(brown):COLOR(white):&aname(lv01_cn);''SKILL LV.01 &size(16){岳翔};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(brown):COLOR(white):&amp;aname(lv01_cn);''SKILL LV.01 &amp;size(16){岳翔};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
 |01|Growth Memories|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|It’s a new day!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Smile|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|Akzeriyyuth|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|SO FLY ME TO YOU|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|クリスタルミサイル|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|Pon-Pon-Pompoko Dai-Sen-Saw!|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|It's a new day!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Future MUSiC|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
-|01|混乱少女♥そふらんちゃん!!|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):6|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|01|混乱少女&amp;#9829;そふらんちゃん!!|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):6|
 |02|センチメント|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
 |FINAL|ナナイロ|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|香港功夫大旋風|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):6|
 |02|ハッピーシンセサイザ|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
-|FINAL|Ha·lle·lu·jah|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|FINAL|Ha&amp;#183;lle&amp;#183;lu&amp;#183;jah|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|SAtAN|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):6|
-|02|DIABLOSIS::Nāga|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):7|
+|02|DIABLOSIS::N&amp;#257;ga|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):7|
 |FINAL|THE凸GENERATOR|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):7|
-|>|>|>|BGCOLOR(navy):COLOR(white):&aname(lv02_cn);''SKILL LV.02 &size(16){流星};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(navy):COLOR(white):&amp;aname(lv02_cn);''SKILL LV.02 &amp;size(16){流星};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
 |01|iLLness LiLin|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|I’m so happy(Happy Hoppin Remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|wound|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
-|01|HE4VEN ～天国へようこそ～|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|01|HE4VEN 〜天国へようこそ〜|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|VAMPIRE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|FINAL|One & Only|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|FINAL|One &amp; Only|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|FREEDOM DiVE|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|VAMPIRE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|The willow and snow|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|シリョクケンサ|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
 |02|交渉人・西行寺幽々子 vs スカーレット警察|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
 |FINAL|「月風魔伝」龍骨鬼戦 yks Remix|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|PULSE LASER|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):7|
 |02|隅田川夏恋歌 (I/O Angel mix)|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
 |FINAL|cloud|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|Triple Counter|BGCOLOR(#63a):NOV|BGCOLOR(#ddf):7|
 |02|Two of Us|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
 |FINAL|VAMPIRE|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):8|
-|>|>|>|BGCOLOR(#fcc800):COLOR(black):&aname(lv03_cn);''SKILL LV.03 &size(16){月衝};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#fcc800):COLOR(black):&amp;aname(lv03_cn);''SKILL LV.03 &amp;size(16){月衝};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
 |01|fancy cake!!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Blue Rain Dustboxxxx RMX|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Play With Fire|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|スペクトラム|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Gaze ft. 紫崎 雪|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Second Heaven GravityPfArrange|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|WONDER_WOBBLER|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Sakura Mirage -Drum'n World-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|スピーカーガール！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|disco KAWAii|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):9|
 |02|朧 (kamome sano remix)|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |FINAL|Earthquake Super Shock - SDVX Edit. -|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|BUBBLE RAVER|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):9|
 |02|Mermaid girl (Tropical Remix)|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |FINAL|TYCOON|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|WONDER_WOBBLER|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):9|
 |02|ドゥンガドゥンガ狂詩曲|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |FINAL|いつかの夢、またねの約束。|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
-|>|>|>|BGCOLOR(#d4d9dc):COLOR(black):&aname(lv04_cn);''SKILL LV.04 &size(16){瞬光};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#d4d9dc):COLOR(black):&amp;aname(lv04_cn);''SKILL LV.04 &amp;size(16){瞬光};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
 |01|あれこれそれどれ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Dark Matter|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|爆なな☆てすとロイヤー|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|サイコバスコミュニケーション|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):10|
 |02|Parousia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|好きトキメキとキス|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|tricky trick|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Virtual Bit|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|FINAL|UROB&#216;ROS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|FINAL|UROB&amp;#216;ROS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|僕は空気が嫁ない|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |02|断片Story|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):11|
 |FINAL|人生リセットボタン|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|Ignited Night Burst|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |02|Poison Blood|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):11|
-|FINAL|Love♡sicK|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):11|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|FINAL|Love&amp;#9825;sicK|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|腐れ外道とチョコレゐト|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):10|
 |02|はわわｗ！な展開っ！|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):11|
 |FINAL|Believe (y)our Wings {GRA5P WAVES}|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):11|
-|>|>|>|BGCOLOR(deepskyblue):COLOR(white):&aname(lv05_cn);''SKILL LV.05 &size(16){天極};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(deepskyblue):COLOR(white):&amp;aname(lv05_cn);''SKILL LV.05 &amp;size(16){天極};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
 |01|Goddess Bless you|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Beyond the BLUE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Lovesick Lovetune|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Bコース''|
 |01|パ→ピ→プ→Yeah!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Divine's or Deal|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|ZEPHYRANTHES|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|ファイナルレター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|New Leaf|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|.59 -BOOTH BOOST REMIX-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|The star in eclipse|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):12|
 |02|Shadows in the Light|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):13|
 |FINAL|Starlight Dance Floor|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|ハローラフター|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):12|
 |02|サンドリヨン|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):13|
 |FINAL|ツギハギスタッカート|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|Lunatic Sprinter|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):12|
 |02|Sayonara Planet Wars|BGCOLOR(#ec0):ADV|BGCOLOR(#ffc):13|
 |FINAL|港町レディ|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):13|
-|>|>|>|BGCOLOR(#25b7c0):COLOR(white):&aname(lv06_cn);''SKILL LV.06 &size(16){烈風};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#25b7c0):COLOR(white):&amp;aname(lv06_cn);''SKILL LV.06 &amp;size(16){烈風};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
 |01|Arcade Prison|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|No way|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|3y3s (JMBS FUNKOT RMX)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|Time to Air (jazz it up style)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|TRIGGER★HAPPY|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Finale|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Cコース''|
 |01|狂騒こども節|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Vigor|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|WONDER_WOBBLER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|Decoy|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |02|不思議玩具ガンガラディンドン|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |FINAL|RED ZONE NeoClassical Party Remix|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|Foolish Hero|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |02|Erlung|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |FINAL|Blue Rain Dustboxxxx RMX|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|Sacrifice Escape: 不条理の模倣による感情と代償|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |02|分けるな危険！モモモモモモーイズム|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
 |FINAL|真夏の海の修道女|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):14|
-|>|>|>|BGCOLOR(#f73562):COLOR(white):&aname(lv07_cn);''SKILL LV.07 &size(16){雷電};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#f73562):COLOR(white):&amp;aname(lv07_cn);''SKILL LV.07 &amp;size(16){雷電};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
 |01|RHYZING BEAT|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Zelophilia|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|リカーシブ・ファンクション|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|The Formula|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Coldlapse|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|ALTONA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|極彩天奏|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Coldlapse|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Nexta|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|Rings of Rainbow|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|Mermaid girl (Tropical Remix)|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |FINAL|Voice 2 Voice|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|Mother Ship (C-YA MIX)|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|弾幕注意報2014|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |FINAL|LittleGameStar|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|アオアラシ|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|Sharkbait|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |FINAL|Evans|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
-|>|>|>|BGCOLOR(#ff69b4):COLOR(white):&aname(lv08_cn);''SKILL LV.08 &size(16){麗華};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#ff69b4):COLOR(white):&amp;aname(lv08_cn);''SKILL LV.08 &amp;size(16){麗華};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Aコース''|
 |01|Divine's:Bugscript|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Lowermost revolt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|Destroy|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|Cepheus|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Lowermost revolt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|Double Universe|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|Boss Rush|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Renegade Fruits|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |Final|bass 2 bass〔Tracy vs. Astronomical Remix〕|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|Le ××××|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|いーあるふぁんくらぶ|BGCOLOR(#f60):GRV|BGCOLOR(#fdc):16|
 |FINAL|囲い無き世は一期の月影|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|はわわｗ！な展開っ！|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|深海シティアンダーグラウンド|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |FINAL|Din Don Dan (Fusion Remix)|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|仙酌絶唱のファンタジア|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):15|
 |02|翠雨の祷|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |FINAL|真っ白な靴|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
-|>|>|>|BGCOLOR(#e5eeff):COLOR(black):&aname(lv09_cn);''SKILL LV.09 &size(16){魔騎士};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#e5eeff):COLOR(black):&amp;aname(lv09_cn);''SKILL LV.09 &amp;size(16){魔騎士};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
 |01|Random Box|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Wuv U(pico/ustic rmx)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|オンディーヌの泪|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|Shiawase Transmission|BGCOLOR(#f33):''MXM''|BGCOLOR(#fdd):16|
 |02|Fairy in Strasbourg|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|SUPER BUBBLE JOURNEY|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Cコース''|
 |01|Dynasty|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|香港功夫大旋風|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|HAELEQUIN|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|Never Regret Anything|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |02|PANIC HOLIC|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |FINAL|失敗作少女|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|FIRE FIREは電気スウィングの夢を見るか？|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |02|裏表ラバーズ|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):16|
 |FINAL|JULIAN|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|アライヴ|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):16|
 |02|Glorious Journey|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):16|
 |FINAL|ヒミツダイヤル|BGCOLOR(#f19):VVD|BGCOLOR(#fdf):17|
-|>|>|>|BGCOLOR(yellow):COLOR(black):&aname(lv10_cn);''SKILL LV.10 &size(16){剛力羅};''|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(yellow):COLOR(black):&amp;aname(lv10_cn);''SKILL LV.10 &amp;size(16){剛力羅};''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
 |01|VOLTEXES IV|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Max Burning!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Quietus Ray|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
 |01|PIERROT KNIfE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Line 4 Ruin -kohumix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|The Formula|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第一回 Cコース''|
 |01|JUGGLE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Chocolate Planet|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Booth of Fighters|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
 |01|ムーニャポヨポヨスッポコニャーゴ|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
 |02|The star in eclipse|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
 |FINAL|Quietus Ray|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
 |01|Triple Counter|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
 |02|The world of sound|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
 |FINAL|ほおずき程度には赤い頭髪|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
-|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
 |01|Bye or not|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):17|
 |02|悪戯センセーション|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):17|
-|FINAL|Enchanté|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):18|
+|FINAL|Enchant&amp;#233;|BGCOLOR(#9ac):MXM|BGCOLOR(#eef):18|
 
 ***或帝滅斗/暴龍天 [#upper_levels_cn]
 |TRACK|曲名|難易度|Lv|解禁条件(参考)|h
-|>|>|>|>|BGCOLOR(red):COLOR(#fcdac7):CENTER:''SKILL LV.11 &size(16){或帝滅斗};''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(red):COLOR(#fcdac7):CENTER:''SKILL LV.11 &amp;size(16){或帝滅斗};''|
 |CENTER:||CENTER:COLOR(white):|CENTER:||c
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
-|01|BLACK or WHITE?|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;For UltraPlayersロード 4曲目|
-|02|オニユリ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
-|FINAL|Ganymede kamome mix|BGCOLOR(#e3d):''INF''|BGCOLOR(#fce):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
-|01|スラッシュ//シスターズ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|01|BLACK or WHITE?|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;For UltraPlayersロード 4曲目|
+|02|オニユリ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
+|FINAL|Ganymede kamome mix|BGCOLOR(#e3d):''INF''|BGCOLOR(#fce):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|01|スラッシュ//シスターズ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
 |02|GERBERA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|snow storm -euphoria-|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
-|01|End to end|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;Lachryma《Re:Queen’M》ロード 4曲目|
-|02|LegenD.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;World's endロード 3曲目|
+|FINAL|snow storm -euphoria-|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|01|End to end|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;Lachryma《Re:Queen’M》ロード 4曲目|
+|02|LegenD.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;World's endロード 3曲目|
 |FINAL|INF-B《L-aste-R》|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
-|01|GEOMETRIA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;Prayerロード 3曲目|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|01|GEOMETRIA|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;Prayerロード 3曲目|
 |02|キュリオシティ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|NEO TREASON|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
-|01|Sakura Reflection (P*Light Slayer Remix)|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|Reb∞t|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|FINAL|音楽 -resolve-|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|>|>|>|>|BGCOLOR(midnightblue):COLOR(yellow):CENTER:''SKILL LV.∞ &size(16){暴龍天};''|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
-|01|Deadly force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.1|
-|02|X&#233;roa|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.4最終解禁曲|
-|FINAL|Σmbry&#248;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.6最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
-|01|Sailing Force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;iLLness LiLinロード 4曲目|
-|02|Fly Like You|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.5|
-|FINAL|*Feels Seasickness...*|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension>SOUND VOLTEX VIVID WAVE/ΩDimension]]&br;Phase.6最終解禁曲|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
-|01|Lord=Crossight|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|Black Emperor|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|FINAL|HE4VEN ～天国へようこそ～|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&br;HE4VEN ～天国へようこそ～ロード 5曲目|
-|>|>|>|>|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
-|01|月光乱舞|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
-|02|BLACK or WHITE?|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE>SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&br;BLACK or WHITE?ロード 4曲目|
-|FINAL|iLLness LiLin|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[条件付きインプット>SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&br;iLLness LiLinロード 5曲目|
+|FINAL|NEO TREASON|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第3回''|
+|01|Sakura Reflection (P*Light Slayer Remix)|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|Reb∞t|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|FINAL|音楽 -resolve-|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(midnightblue):COLOR(yellow):CENTER:''SKILL LV.∞ &amp;size(16){暴龍天};''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Aコース''|
+|01|Deadly force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.1|
+|02|X&amp;#233;roa|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.4最終解禁曲|
+|FINAL|Σmbry&amp;#248;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.6最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第1回 Bコース''|
+|01|Sailing Force|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;iLLness LiLinロード 4曲目|
+|02|Fly Like You|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.5|
+|FINAL|*Feels Seasickness...*|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[ΩDimension&gt;SOUND VOLTEX VIVID WAVE/ΩDimension]]&amp;br;Phase.6最終解禁曲|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Aコース''|
+|01|Lord=Crossight|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|Black Emperor|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|FINAL|HE4VEN 〜天国へようこそ〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&amp;br;HE4VEN 〜天国へようこそ〜ロード 5曲目|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''中国版第2回 Bコース''|
+|01|月光乱舞|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]|
+|02|BLACK or WHITE?|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX VIVID WAVE/BLASTER GATE#blaster_gate]]&amp;br;BLACK or WHITE?ロード 4曲目|
+|FINAL|iLLness LiLin|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[条件付きインプット&gt;SOUND VOLTEX VIVID WAVE/隠し要素#secret_input]]&amp;br;iLLness LiLinロード 5曲目|
