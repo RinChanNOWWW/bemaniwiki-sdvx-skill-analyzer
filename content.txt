@@ -799,12 +799,12 @@ The 10th KACのSOUND VOLTEXにエントリーすると、エントリーした�
 
 |TRACK|曲名|難易度|Lv|KAC予選集計対象期間|h
 |CENTER:||COLOR(white):CENTER:|CENTER:||c
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【フリー部門】''|
-|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&amp;br;〜%%2021/02/02 18:00%% → &amp;color(red){終了日時未定};|
+|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【フリー部門】''|2020/12/24 10:00&amp;br;〜%%2021/02/02 18:00%%&amp;br;→&amp;color(red){2021/04/20 18:00};|
+|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|~|
 |02|IX|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|~|
 |FINAL|ЯeviveR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【女性部門】''|
-|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2020/12/24 10:00&amp;br;〜%%2021/02/02 18:00%% → &amp;color(red){終了日時未定};|
+|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''The 10th KACチャレンジコース【女性部門】''|~|
+|01|世界の果てに約束の凱歌を -VOLTEX Mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|~|
 |02|9TH5IN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 |FINAL|θコトノハθカプセルθ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 
