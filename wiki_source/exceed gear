@@ -1,0 +1,365 @@
+#include(SOUND VOLTEX EXCEED GEAR/Contents,notitle)
+#contents
+
+*SKILL ANALYZER [#SKILL_ANALYZER]
+-[[公式HP&gt;http://p.eagate.573.jp/game/sdvx/vi/howto/skill.html]]
+-全3曲から構成されるコースを連続でプレーし、腕前を測るモード。
+--通常コースはSKILL Level.01〜SKILL Level.11、∞の12段階。ただし、Level.11とLevel.∞は出現の条件が存在する。(後述)
+--3曲を全て完奏することで''スキル称号''(=文字)を獲得できる。
+--通常コースでは''プレート''(=左下の数字と背景色)も獲得でき、それに応じてLIGHT START時の''選曲制限が緩和''される。
+
+**挑戦手順 [#how_to]
++モード選択で「SKILL ANALYZER」を選択する。
++コースを選択する。
+--選曲画面は段位ごとのページ制になっており、VOL-Lでページ(段位)を選択した後にVOL-Rでページ内の受験したいコースを選択する。
++1曲ごとに従来のモードと同様にオンラインマッチングが行われる。その間にオプションの変更も可能。
+--受験中のプレーヤーのRATE STYLE表記は&quot;&lt;S&gt;&quot;と表示される。
+--MIRROR・RANDOMオプションは&amp;color(red){''使用不可''};。選択していても譜面には反映されない。
+--「マッチングアシスト」のマークがついているSKILL LV.01〜07は他プレーヤーとマッチングするとゲージが10%回復する(マッチング人数によらない)。
++プレー中はゲージが専用の「[[PERMISSIVE RATE&gt;SOUND VOLTEX EXCEED GEAR/システム#rate_style]]」に変わる。ゲージが0.00%((整数部分しか筐体で表示されないが、内部的には小数点以下も計算されており、「表示上0%になったのに生き残った」ということもあり得る))になるとステージ途中でも強制終了、TRACK CRASHとなる。
++1曲終了ごとにリザルト画面が表示され、[[BONUS&gt;SOUND VOLTEX EXCEED GEAR/システム#bonus]]も獲得できる。
+--各楽曲の成績のクリアメダルはULTIMATE CHAINもしくはPERFECTのみ保存され、1つでもERRORを出してしまうとTRACK CRASHと同じ扱いになる。
++3曲完奏で合格となり、[[報酬&gt;#rewards]]を獲得できる。
+--トータルリザルト画面では達成率が表示される。
+---合格時の達成率は''100〜200%''の範囲となる。~
+計算式：''100% + (3曲のスコアの平均 - 900万) / 1万''(端数切り捨ての整数表記)~
+※スコア平均が900万未満の場合は一律100%。
+---不合格時の達成率は''0〜99%''の範囲となる。~
+計算式:''33.3% × (完奏した曲数 + 途中でTRACK CRASHした曲の小節数or時間の割合)''(端数切り捨ての整数表記)。
+
+**報酬 [#rewards]
+-完奏するとスキル称号を獲得でき、現在保持しているものから合格したコースのもの(現在のスキル称号より下位のスキル称号でも可)に変更するか選べる。
+--公式HPに「スキル称号変更」という項目が用意されており、e-amusementプレミアムコースに加入していればいつでも変更可能。~
+加入していない場合やスキル称号を変更しないと選択した場合、変更するために再びコースを完走する必要がある。
+
+-通常コースを完奏するとプレートは自己ベストのSKILL LEVELのものに塗り替えられる。
+--所持しているSKILL LEVELより下位のコースに合格してもプレートは獲得できない。
+--通常コースを1つも合格しないまま特殊コースに合格した場合、プレート無し(=黒背景・LV.無し)でスキル称号のみ設定された状態になる。
+--自己ベストのSKILL LEVELのコースの合格状況に応じて、筐体のみで確認できる枠がプレートに飾られる。
+---この枠はe-amusement公式サイトのプロフィールに反映されない。
+---自己ベストのSKILL LEVELよりも上位の過去コースに合格した場合、称号プレートのLEVELと背景色は昇格するが、枠付きだった場合は最新コースでないため没収される。
+
+-SKILL LEVELを更新した場合、それに応じて[[LIGHT STARTでの選曲制限&gt;SOUND VOLTEX EXCEED GEAR/システム#level_restriction]]が緩和される。
+//---無段位の場合の選曲制限は16→18→20となっている。そのため、''魔騎士以下を取得しても選曲制限は無段位時と変わらない''が、今後再制限される可能性ある。
+
+|枠の状態|条件|h
+|CENTER:||c
+|なし|なし&amp;br;通常コースが新規に追加されると全員この状態にリセットされる|
+|銀枠(羽付き)|自己ベストのSKILL LEVELの「最新コース」に合格している&amp;br;最新回がA〜Cのように複数ある場合、いずれか1つに合格すればよい|
+|金枠|自己ベストのSKILL LEVELの「全てのコース」に合格している&amp;br;1つの回に複数コースがある場合もすべて合格する必要がある|
+|金枠(後光付き)|自己ベストのSKILL LEVELの全てのコースの達成率が基準値以上になっている((コース選択画面では平均達成率が表示されているが、平均達成率は後光の条件ではない))&amp;br;基準値は暴龍天170%、或帝滅斗160%、剛力羅150%、魔騎士以下130%|
+
+-初完奏時に[[BONUS&gt;SOUND VOLTEX EXCEED GEAR/システム#bonus]]を獲得できる。
+--1コース目:512PCB、2コース目:256PCB、3コース目以降:128PCB(コース数は「第○回・△コース」の中でカウント)
+--既に完奏しているコースを再度完奏してもボーナスは入らない。
+
+**挑戦条件 [#requirements]
+-SKILL LV.11(或帝滅斗)・SKILL LV.∞(暴龍天)は「''1つ下の段位の金枠の取得(=全コースの合格)または挑戦する段位そのものの取得''」かつ「''コースに含まれる譜面全てのインプット''」を満たしているコースのみ選択画面に出現し、挑戦できる。
+--1つ下の段位の金枠を取得したことがあっても''次の更新で枠がなくなる(=コースが追加される)と&amp;color(red){挑戦権が剥奪され、1つ下の段位の金枠を再び取得するまでは或帝滅斗・暴龍天に挑戦できなくなる};''。~
+例:第4回までの剛力羅コースを全てクリアしていても第5回以降に未クリアの剛力羅コースがある第4回或帝滅斗への挑戦権は得られない。
+---挑戦する段位そのものを取得していれば、次の更新で1つ下の段位が追加されても挑戦権が剥奪されることはない。~
+例:第4回で或帝滅斗コースを1つでもクリアしていれば、以後未クリアの剛力羅コースが追加されても或帝滅斗への挑戦権は保持されたままである。
+--課題譜面を全てインプットしているコースのみ挑戦できるが、全てのコースを出現させていない状態で出現させているコースのみを全て合格しても金枠は付かない。(最新のものであれば銀枠、そうでなければ枠無しとなる)
+--コースが出現するのは課題譜面をインプットした次のクレジットからとなる。
+
+-或帝滅斗・暴龍天のコース以外をプレーする際、''課題譜面を解禁する必要はない''。
+
+//-楽曲削除があった場合、その曲を含むコース自体が削除される。
+//--(要検証)その場合、SKILL LEVELはそのコース以外で最高のものに変更される。~
+//そのため、そのコース以外は下位の段位しか取得していなかった場合、自身のSKILL LEVELが下がることになる。
+//---今作では対象コースが削除されたにもかかわらず魔騎士を維持している報告あり。
+
+**課題曲リスト(通常コース) [#track_list]
+-[[公式HPによる課題曲リスト&gt;http://p.eagate.573.jp/game/sdvx/vi/playdata/skill/index.html]]
+--当Wikiでは課題曲に別途譜面解禁が必要な場合の解禁条件等を併せて記載している。
+
+|回数|更新日|&gt;|&gt;|&gt;|&gt;|コース数|h
+|~|~|&gt;|&gt;|通常コース|特殊コース|計|
+|~|~|01〜10|11|∞|~|~|
+|CENTER:||CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
+|第1回|2021/02/24|各3|2|2|-|34|
+|&gt;|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):各3|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):0|BGCOLOR(yellow):34|
+
+//テンプレート
+//|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
+//|01||BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):|
+//|02||BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):|
+//|FINAL||BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):|
+//|FINAL||BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):|
+//|FINAL||BGCOLOR(#e2a):''INF''|BGCOLOR(#fce):|
+//|FINAL||BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):|
+//|FINAL||BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):|
+//|FINAL||BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):|
+
+***&amp;color(white,brown){SKILL ANALYZER Level.01 岳翔}; [#Lv01]
+''岳翔'' / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:6〜7
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(brown):COLOR(white):SKILL LV.01 &amp;size(16){岳翔};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Aurolla|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|Demetel|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|FINAL|neko＊neko|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|消失(Hommarju Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|ナナイロライト|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|FINAL|Rebellio|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|FIRST：DREAMS|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|The Starry true|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|FINAL|Bad Apple!! feat. nomico|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+
+***&amp;color(white,navy){SKILL ANALYZER Level.02 流星}; [#Lv02]
+[[岳翔&gt;#Lv01]] / ''流星'' / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:7〜8
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(navy):COLOR(white):SKILL LV.02 &amp;size(16){流星};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|SEED (DJ Noriken Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|02|ダブルラリアット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|FINAL|地球防衛乙女パンナコッター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|メランコリック|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|02|裏表ラバーズ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|FINAL|キズナ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|サイコパスコミュニケーション|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|02|からくりピエロ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|FINAL|LOVE EAST|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+
+***&amp;color(black,#fcc800){SKILL ANALYZER Level.03 月衝}; [#Lv03]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / ''月衝'' / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:9〜10
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#fcc800):COLOR(black):SKILL LV.03 &amp;size(16){月衝};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|VOLTEXES II|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
+|02|炎夏の音|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|FINAL|幽玄の桜|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|冬に桜が咲くようなキセキ。|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
+|02|虹色の花|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|FINAL|ナイフ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|すろぉもぉしょん|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
+|02|トーキョーサマーナイト|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|FINAL|PUNISHER|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+
+***&amp;color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#Lv04]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / ''瞬光'' / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:10〜11
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#d4d9dc):COLOR(black):SKILL LV.04 &amp;size(16){瞬光};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Our Faith (takdrive remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|ultra turbo|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|FINAL|好きトキメキとキス|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|おお われら喜び讃うべし、主よ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|Dawn of Asia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|FINAL|F&amp;#225;fnir|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|ケロ��destiny|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|No way|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|FINAL|スイーツはとまらない♪|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+
+***&amp;color(white,deepskyblue){SKILL ANALYZER Level.05 天極}; [#Lv05]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / ''天極'' / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:12〜13
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(deepskyblue):COLOR(white):SKILL LV.05 &amp;size(16){天極};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|CRITICAL LINE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
+|02|Thank you for your playing music|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|FINAL|Nhelv|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|Into The Madness|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
+|02|春時雨|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+|FINAL|Blessing Bouquet|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|cloud|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
+|02|木彫り鯰と右肩ゾンビ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+|FINAL|Altale|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+
+***&amp;color(white,#25b7c0){SKILL ANALYZER Level.06 烈風}; [#Lv06]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / ''烈風'' / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:14
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#25b7c0):COLOR(white):SKILL LV.06 &amp;size(16){烈風};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Lionheart|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|Night Rockin' Bird|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|FINAL|disco KAWAii|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|モザイクロール|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|イカサマライフゲイム|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|FINAL|cobalt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|DEEP PSYCHEDELIC STRIKER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|VIVID DEBUT!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|FINAL|雲海|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+
+***&amp;color(white,#f73562){SKILL ANALYZER Level.07 雷電}; [#Lv07]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / ''雷電'' / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:15
+-マッチングアシスト:&amp;color(red){あり};
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#f73562):COLOR(white):SKILL LV.07 &amp;size(16){雷電};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Me:Tear|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|Aragami|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|FINAL|きゅん×きゅんばっきゅん☆LOVE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|Xibercannon|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|Gorgetech|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|FINAL|Goddess Bless you|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|Dharma|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|月々紅花|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|FINAL|Last Battalion|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+
+***&amp;color(white,#ff69b4){SKILL ANALYZER Level.08 麗華}; [#Lv08]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / ''麗華'' / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:15〜16
+-マッチングアシスト:なし
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#ff69b4):COLOR(white):SKILL LV.08 &amp;size(16){麗華};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|ウサテイ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|Φnd:you|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|孤独の番人|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|ELECT|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|翠雨の祷|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|爆なな☆てすとロイヤー|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|キュリオシティ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|Lo-Fi-M|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|ポメグラネイト|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+
+***&amp;color(black,#e5eeff){SKILL ANALYZER Level.09 魔騎士}; [#Lv09]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / ''魔騎士'' / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:16〜17
+-マッチングアシスト:なし
+-後光:達成率130%(スコア平均930万・合計2790万)以上
+-LIGHT START時の選曲制限:16→18→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(#e5eeff):COLOR(black):SKILL LV.09 &amp;size(16){魔騎士};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|偶然？ 必然？ アンビバレンス！|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
+|02|幸せになれる隠しコマンドがあるらしい|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|D1g1t1ze b0dy|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|ツーマンライブ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|けもののおうじゃ★めうめう|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
+|FINAL|逆さま&amp;#9829;シンデレラパレード|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|crazy cinema story|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|冥 Rockin' SWING REMIX|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|AXION|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+
+***&amp;color(black,yellow){SKILL ANALYZER Level.10 剛力羅}; [#Lv10]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / ''剛力羅'' / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
+-対象トラックレベル:17〜18
+-マッチングアシスト:なし
+-後光:達成率150%(スコア平均950万・合計2850万)以上
+-LIGHT START時の選曲制限:17→19→20
+
+|&gt;|&gt;|&gt;|BGCOLOR(yellow):COLOR(black):SKILL LV.10 &amp;size(16){剛力羅};|h
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|星の詩|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|02|キラメキ居残り大戦争|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|FINAL|Booth of Fighters|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|おどりましょうよ！ドラゴンさん 〜転生したらゲーム曲でした〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|02|オルターエゴ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|FINAL|Nofram|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|01|SHION -sublimation mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|02|Non RolicK!!大冒険|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|FINAL|ULTRA B+K|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+
+***&amp;color(#fcdac7,red){SKILL ANALYZER Level.11 或帝滅斗}; [#Lv11]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / ''或帝滅斗'' / [[暴龍天&gt;#Lv_infinite]]
+-挑戦条件:「''剛力羅の金枠の取得(=全コースの合格)または或帝滅斗の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述&gt;#requirements]])
+-対象トラックレベル:18〜19
+-マッチングアシスト:なし
+-後光:達成率160%(スコア平均960万・合計2880万)以上
+-LIGHT START時の選曲制限:18→20→20
+
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(red):COLOR(#fcdac7):SKILL LV.11 &amp;size(16){或帝滅斗};|h
+|TRACK|曲名|難易度|Lv|解禁条件(参考)|h
+|CENTER:||CENTER:COLOR(white):|CENTER:||c
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|緋色月下、狂咲ノ絶 (nayuta 2017 ver)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|02|神獄烙桜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.1|
+|FINAL|НУМЛ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|Desyr0yer|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|02|SAMURAI TIGER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;幻想御伽篇編|
+|FINAL|ムーニャポヨポヨスッポコニャーゴ|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
+
+***&amp;color(yellow,midnightblue){SKILL ANALYZER Level.∞ 暴龍天}; [#Lv_infinite]
+[[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / ''暴龍天''
+-挑戦条件:「''或帝滅斗の金枠の取得(=全コースの合格)または暴龍天の取得''」かつ「''コースに含まれる譜面全てのインプット''」(詳細は[[前述&gt;#requirements]])
+-対象トラックレベル:19〜20
+-マッチングアシスト:なし
+-後光:達成率170%(スコア平均970万・合計2910万)以上
+-LIGHT START時の選曲制限:20→20→20(制限無し)
+
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(midnightblue):COLOR(yellow):SKILL LV.∞ &amp;size(16){暴龍天};|h
+|TRACK|曲名|難易度|Lv|解禁条件(参考)|h
+|CENTER:||CENTER:COLOR(white):|CENTER:||c
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|01|Cross Fire|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
+|02|ΑΩ|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
+|FINAL|Xroni&amp;#232;r|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.5+|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|01|ΛΛemoria	|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;侵寇の王女編|
+|02|onslaught -Retaliation of Baham&amp;#363;t-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|FINAL|I|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.3|
+
+**課題曲リスト(特殊コース) [#track_list_special]
+-[[The 10th KAC予選コース&gt;SOUND VOLTEX VIVID WAVE/SKILL ANALYZER#the10thkac]]は&amp;color(red){''本作プレーできない''};ため注意。

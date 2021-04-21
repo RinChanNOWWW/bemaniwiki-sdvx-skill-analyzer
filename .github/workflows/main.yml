@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       USER_SECRET: ${{ secrets.SECRET }}
-      USER_NAME: ${{ secrets.USER_EMAIL}}
-      USER_EMAIL: ${{ secrets.USER_NAME }}
+      USER_NAME: ${{ secrets.USER_NAME }}
+      USER_EMAIL: ${{ secrets.USER_EMAIL }}
 
     steps:
     - uses: actions/checkout@v2
@@ -34,8 +34,8 @@ jobs:
       run: |
         git config user.name $USER_NAME
         git config user.email $USER_EMAIL
-        git add content.txt
-        git commit -m "$(date +"%Y-%m-%d") update content.txt"
+        git add wiki_source
+        git commit -m "$(date +"%Y-%m-%d") update wiki source"
         git push
 
         

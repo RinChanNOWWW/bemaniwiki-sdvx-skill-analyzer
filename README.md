@@ -1,50 +1,29 @@
-# BEMANIWIKI SDVX VIVID WAVE SKILL ANALYZER
+# BEMANIWIKI SDVX SKILL ANALYZER
 
-A fork of bemaniwiki SDVXV skill analyzer page's wiki source codes. http://bemaniwiki.com/index.php?SOUND%20VOLTEX%20VIVID%20WAVE/SKILL%20ANALYZER
+A fork of bemaniwiki SDVX skill analyzer pages' wiki source codes. 
+
+- VIVID WAVE: http://bemaniwiki.com/index.php?SOUND%20VOLTEX%20VIVID%20WAVE/SKILL%20ANALYZER
+
+- EXCEED GEAR: http://bemaniwiki.com/index.php?SOUND%20VOLTEX%20EXCEED%20GEAR/SKILL%20ANALYZER
 
 ## Github Actions
 
-Run crawler.py every Monday (UTC 00:00) and update this repo.
+Run crawler.py every Monday (UTC 00:00) and update the wiki source codes.
 
 ## Repo Structure
 
-### content.txt
+### wiki_source/...
 
-The wiki source of this page.
-
-### gen_wiki.py
-
-Usage: `python3 gen_wiki.py filename`.
-
-A python script to generate skill analyzer courses wiki source codes.
+The wiki source codes of corresponding pages.
 
 ### crawler.py
 
 Usage: `python3 crawler.py`.
 
-A python crawler script to crawl skill analyzer wiki source codes into `context.txt`.
+A python crawler script to crawl skill analyzer wiki source codes into text files under `wiki_source` directory. Now support **VIVID WAVE** and **EXCEED GEAR**.
 
-### courses
+### gen_wiki.py[DEPRECATED]
 
-Texts for `gen_wiki.py` to generate codes.
+Usage: `python3 gen_wiki.py filename`.
 
-Content example:
-
-```
-01|Triple Counter|EXH|17
-02|The world of sound|EXH|17
-FINAL|ほおずき程度には赤い頭髪|EXH|17
-```
-
-### wiki
-
-The results of `gen_wiki.py`. Follow the wiki rules of http://bemaniwiki.com/index.php?SOUND%20VOLTEX%20VIVID%20WAVE/SKILL%20ANALYZER.
-
-Content example:
-
-```
-|01|Triple Counter|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
-|02|The world of sound|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
-|FINAL|ほおずき程度には赤い頭髪|BGCOLOR(#f33):EXH|BGCOLOR(#fdd):17|
-```
-
+A python script to generate skill analyzer courses wiki source codes.
