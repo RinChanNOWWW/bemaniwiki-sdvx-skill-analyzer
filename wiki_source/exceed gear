@@ -78,7 +78,8 @@
 |~|~|01〜10|11|∞|~|~|
 |CENTER:||CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
 |第1回|2021/02/24|各3|2|2|-|34|
-|&gt;|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):各3|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):0|BGCOLOR(yellow):34|
+|BGCOLOR(#CCC):10周年記念|2022/01/18|-|-|-|4|4|
+|&gt;|BGCOLOR(lightyellow):CENTER:計|BGCOLOR(lightyellow):各3|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):2|BGCOLOR(lightyellow):4|BGCOLOR(yellow):38|
 
 //テンプレート
 //|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
@@ -362,4 +363,31 @@
 |FINAL|I|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.3|
 
 **課題曲リスト(特殊コース) [#track_list_special]
--[[The 10th KAC予選コース&gt;SOUND VOLTEX VIVID WAVE/SKILL ANALYZER#the10thkac]]は&amp;color(red){''本作プレーできない''};ため注意。
+-[[The 10th KAC予選コース&gt;SOUND VOLTEX VIVID WAVE/SKILL ANALYZER#the10thkac]]は&amp;color(red){''本作でプレーできない''};ため注意。
+***10周年記念コース [#Anniversary_10th]
+-2022/01/18配信
+--読みに「じゅう」「テン」が含まれる楽曲で構成されている。
+---Joyeuse(&amp;color(red){''ジュ''};ワユース)
+---&amp;color(red){''じゅーじゅー''};&amp;#9829;焼肉の火からフェニックス！？〜再誕の†炭火焼き〜
+---Innocent Tempest(イノセント・&amp;color(red){''テン''};ペスト)
+---↓↓↓(トリ&amp;color(red){''ジュー''};カ)
+--「10周年記念キャンペーン」(〜2022/03/21)期間中にいずれかのコースをプレーすると特別称号「''天晴''」を獲得。
+
+|TRACK|曲名|難易度|Lv|h
+|CENTER:||COLOR(white):CENTER:|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''10周年記念コース(梅)''|
+|01|Joyeuse|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):4|
+|02|じゅーじゅー&amp;#9829;焼肉の火からフェニックス！？〜再誕の†炭火焼き〜|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|FINAL|Innocent Tempest|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''10周年記念コース(竹)''|
+|01|Joyeuse|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|じゅーじゅー&amp;#9829;焼肉の火からフェニックス！？〜再誕の†炭火焼き〜|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
+|FINAL|Innocent Tempest|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''10周年記念コース(松)''|
+|01|Joyeuse|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|02|じゅーじゅー&amp;#9829;焼肉の火からフェニックス！？〜再誕の†炭火焼き〜|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|FINAL|Innocent Tempest|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''10周年記念コース(極)''|
+|01|↓↓↓|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|
+|02|Joyeuse|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|
+|FINAL|Innocent Tempest|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|
