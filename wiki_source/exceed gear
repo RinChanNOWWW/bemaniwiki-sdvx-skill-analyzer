@@ -86,7 +86,8 @@
 |~|2022/04/02|-|-|-|-4|-4|
 |第4回|2022/04/25|各2|2|2|-|24|
 |Red Bull 5G 2022|2022/05/19|-|-|-|1|1|
-|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各7|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):1|BGCOLOR(yellow):83|
+|~|2022/06/09|-|-|-|1|1|
+|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各7|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):2|BGCOLOR(yellow):84|
 
 //テンプレート
 //|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
@@ -625,19 +626,25 @@
 |02|マキシマ先生の満開!!ヘヴンリー講座&amp;#9829;|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):1|
 |FINAL|エクシード仮面ちゃんのちょっと一線をえくしーどしたEXCEED講座|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):1|
 
-***「Red Bull 5G 2022」予選コース [#Red_Bull_5G_2022]
--2022/05/19〜2022/06/19
---「[[Red Bull 5G 2022&gt;http://www.redbull.com/jp-ja/events/5g/redbull5g-2022-games]]」のオンライン予選で使用するコース。
----自動エントリーではなく、トータルリザルト画面を撮影して専用サイトに投稿する方式。
+***Red Bull 5G 2022予選コース [#Red_Bull_5G_2022]
+-2022/05/19〜2022/06/19(2022/06/09〜エンジョイコース追加)
+--「予選コース」は「[[Red Bull 5G 2022&gt;http://www.redbull.com/jp-ja/events/5g/redbull5g-2022-games]]」のオンライン予選で使用するコース。
+---プレーで自動エントリーではなく、トータルリザルト画面を撮影して専用サイトに投稿する方式。
+--2022/06/09に「エンジョイコース」が追加されたが、エンジョイコースでは「Red Bull 5G 2022」の予選参加はできない。
 --「Red Bull」に関係する単語を含む曲名で構成されている。
 ---&amp;color(red){''Red''};shift
 ---crossing &amp;color(red){''blue''};(→Bull)
 ---&amp;color(red){''FL&amp;#252;geL''};《Λrp:Σggy&amp;#216;》(ドイツ語で「翼」→Red Bullのキャッチコピー「翼を授ける」)
---コース完走で特別称号「''Red Bull''」と限定アピールカードを獲得。
+--いずれかのコース完走で特別称号「''Red Bull''」を獲得。
+--いずれかのコースをプレー(クリア不問)すると、予選期間終了後に限定アピールカードを獲得。
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''「Red Bull 5G 2022」予選コース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022予選コース''|
 |01|Redshift|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |02|crossing blue|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022エンジョイコース''|
+|01|Redshift|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|crossing blue|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|
