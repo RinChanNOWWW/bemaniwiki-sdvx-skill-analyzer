@@ -73,7 +73,7 @@
 -[[公式HPによる課題曲リスト&gt;http://p.eagate.573.jp/game/sdvx/vi/playdata/skill/index.html]]
 --当Wikiでは課題曲に別途譜面解禁が必要な場合の解禁条件等を併せて記載している。
 
-|回|更新日|&gt;|&gt;|&gt;|&gt;|コース数|h
+|回|配信日|&gt;|&gt;|&gt;|&gt;|コース数|h
 |~|~|&gt;|&gt;|通常コース|特殊コース|計|
 |~|~|01〜10|11|∞|~|~|
 |CENTER:||CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
@@ -86,8 +86,8 @@
 |~|2022/04/02|-|-|-|-4|-4|
 |第4回|2022/04/25|各2|2|2|-|24|
 |Red Bull 5G 2022|2022/05/19|-|-|-|1|1|
-|~|2022/06/09|-|-|-|1|1|
-|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各7|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):2|BGCOLOR(yellow):84|
+|~|2022/06/09|-|-|-|3|3|
+|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各7|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):4|BGCOLOR(yellow):86|
 
 //テンプレート
 //|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
@@ -217,7 +217,6 @@
 |02|Secret Traveler -MeniRemix-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|ゴーストマスコット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 
-
 ***&amp;color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#Lv04]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / ''瞬光'' / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
 -対象トラックレベル:10〜11
@@ -335,7 +334,6 @@
 |02|祭囃子|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Technical Master|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 
-
 ***&amp;color(white,#f73562){SKILL ANALYZER Level.07 雷電}; [#Lv07]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / ''雷電'' / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
 -対象トラックレベル:15
@@ -414,7 +412,6 @@
 |02|Laughin' Muffin|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ナナホシのうた|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 
-
 ***&amp;color(black,#e5eeff){SKILL ANALYZER Level.09 魔騎士}; [#Lv09]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / ''魔騎士'' / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
 -対象トラックレベル:16〜17
@@ -453,7 +450,6 @@
 |01|fancy cake!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|HiGHER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Coldlapse|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-
 
 ***&amp;color(black,yellow){SKILL ANALYZER Level.10 剛力羅}; [#Lv10]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / ''剛力羅'' / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -566,7 +562,6 @@
 |02|Verse IV|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |FINAL|Σmbry&amp;#216;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
 
-
 **課題曲リスト(特殊コース) [#track_list_special]
 -The 10th KAC予選コースに関しては[[別項&gt;SOUND VOLTEX VIVID WAVE/SKILL ANALYZER#the10thkac]]を参照。また、&amp;color(red){''本作プレーできない''};ため注意。
 
@@ -627,24 +622,32 @@
 |FINAL|エクシード仮面ちゃんのちょっと一線をえくしーどしたEXCEED講座|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):1|
 
 ***Red Bull 5G 2022予選コース [#Red_Bull_5G_2022]
--2022/05/19〜2022/06/19(2022/06/09〜エンジョイコース追加)
+-2022/05/19〜2022/06/19
 --「予選コース」は「[[Red Bull 5G 2022&gt;http://www.redbull.com/jp-ja/events/5g/redbull5g-2022-games]]」のオンライン予選で使用するコース。
 ---プレーで自動エントリーではなく、トータルリザルト画面を撮影して専用サイトに投稿する方式。
---2022/06/09に「エンジョイコース」が追加されたが、エンジョイコースでは「Red Bull 5G 2022」の予選参加はできない。
+--2022/06/09に「エンジョイコース」が追加されたが、エンジョイコースで「Red Bull 5G 2022」の予選参加はできない。
 --「Red Bull」に関係する単語を含む曲名で構成されている。
 ---&amp;color(red){''Red''};shift
 ---crossing &amp;color(red){''blue''};(→Bull)
 ---&amp;color(red){''FL&amp;#252;geL''};《Λrp:Σggy&amp;#216;》(ドイツ語で「翼」→Red Bullのキャッチコピー「翼を授ける」)
 --いずれかのコース完走で特別称号「''Red Bull''」を獲得。
---いずれかのコースをプレー(クリア不問)すると、予選期間終了後に限定アピールカードを獲得。
+--いずれかのコースをプレー(クリア不問)すると予選期間終了後に限定アピールカードを獲得。
 
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||COLOR(white):CENTER:|CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022 エンジョイコース(梅)''|
+|01|Redshift|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|crossing blue|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022 エンジョイコース(竹)''|
+|01|Redshift|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|02|crossing blue|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022 エンジョイコース(松)''|
+|01|Redshift|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|crossing blue|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022予選コース''|
 |01|Redshift|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |02|crossing blue|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 |FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022エンジョイコース''|
-|01|Redshift|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|02|crossing blue|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|FINAL|FL&amp;#252;geL《Λrp:Σggy&amp;#216;》|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|
