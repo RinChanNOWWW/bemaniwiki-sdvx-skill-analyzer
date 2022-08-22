@@ -17,7 +17,7 @@
 --受験中のプレーヤーのRATE STYLE表記は&quot;&lt;S&gt;&quot;と表示される。
 --MIRROR・RANDOMオプションは&amp;color(red){''使用不可''};。選択していても譜面には反映されない。
 --「マッチングアシスト」のマークがついているSKILL LV.01〜07は他プレーヤーとマッチングするとゲージが10%回復する(マッチング人数によらない)。
-+プレー中はゲージが専用の「[[PERMISSIVE RATE&gt;SOUND VOLTEX EXCEED GEAR/システム#rate_style]]」に変わる。ゲージが0.00%((整数部分しか筐体で表示されないが、内部的には小数点以下も計算されており、「表示上0%になったのに生き残った」ということもあり得る))になるとステージ途中でも強制終了、TRACK CRASHとなる。
++プレー中はゲージが専用の「[[PERMISSIVE RATE&gt;SOUND VOLTEX EXCEED GEAR/システム#rate_style]]」に変わる。ゲージが0.00%になるとステージ途中でも強制終了、TRACK CRASHとなる。
 +1曲終了ごとにリザルト画面が表示され、[[BONUS&gt;SOUND VOLTEX EXCEED GEAR/システム#bonus]]も獲得できる。
 --各楽曲の成績のクリアメダルはULTIMATE CHAINもしくはPERFECTのみ保存され、1つでもERRORを出してしまうとTRACK CRASHと同じ扱いになる。
 +3曲完奏で合格となり、[[報酬&gt;#rewards]]を獲得できる。
@@ -88,7 +88,8 @@
 |Red Bull 5G 2022|2022/05/19|-|-|-|1|1|
 |~|2022/06/09|-|-|-|3|3|
 |~|2022/06/20|-|-|-|-4|-4|
-|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各7|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):6|BGCOLOR(lightyellow):0|BGCOLOR(yellow):82|
+|第5回|2022/08/18|各2|2|2|-|24|
+|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各9|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):8|BGCOLOR(lightyellow):0|BGCOLOR(yellow):106|
 
 //テンプレート
 //|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
@@ -139,6 +140,14 @@
 |01|Mynarco(Nagomu 2Step Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|再教育|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|炉心融解|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|悪戯センセーション|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|HΨ=世界創造=EΨ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|FINAL|Just Be Friends|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|灼熱Beach Side Bunny|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
+|02|十面相（フリーダムver.）|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|FINAL|取り残された美術(Arranged:HiZuMi)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 
 ***&amp;color(white,navy){SKILL ANALYZER Level.02 流星}; [#Lv02]
 [[岳翔&gt;#Lv01]] / ''流星'' / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -178,6 +187,14 @@
 |01|非公開日誌|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|最果てのコトバ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Iterator|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|パンダヒーロー|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|02|善悪の頂にある真実|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|FINAL|Shirogane|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|Arcadia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
+|02|FIRE IN MY HEART|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
+|FINAL|シアワセうさぎ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 
 ***&amp;color(black,#fcc800){SKILL ANALYZER Level.03 月衝}; [#Lv03]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / ''月衝'' / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -217,6 +234,14 @@
 |01|ネトゲ廃人シュプレヒコール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Secret Traveler -MeniRemix-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|ゴーストマスコット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|ホメ猫☆センセーション|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
+|02|JULIAN|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|FINAL|神っぽいな|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|碧の疾風|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
+|02|8 -eight-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|FINAL|The Wind of Gold -HΔPPY MIX-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 
 ***&amp;color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#Lv04]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / ''瞬光'' / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -256,6 +281,14 @@
 |01|Frantic Wolf|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|孤月群雲に沈む|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|Happy Sensation|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|シャ ビ ドゥ 素敵な恋の魔法|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|Twin Rocket|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):11|
+|FINAL|ABSOLUTE (EUROBEAT REMIX)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|WAVE WAVE WAVE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
+|02|Junk Mania|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
+|FINAL|scary night|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 
 ***&amp;color(white,deepskyblue){SKILL ANALYZER Level.05 天極}; [#Lv05]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / ''天極'' / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -295,6 +328,14 @@
 |01|party:stage|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|君がいる場所へ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Scene|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|REDO the NIGHT|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
+|02|Cappuccino Hearts|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
+|FINAL|リズの内心革命|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|透明な記憶の風穴|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
+|02|Mysterious Nights|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+|FINAL|Sakura Reflection 音頭 -盆踊Remix-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 
 ***&amp;color(white,#25b7c0){SKILL ANALYZER Level.06 烈風}; [#Lv06]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / ''烈風'' / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -334,6 +375,14 @@
 |01|Pixelated Platform|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|祭囃子|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Technical Master|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|キリステゴメン|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|熱情のサパデアード|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|FINAL|コンフェイト＊コンチェルト|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|Still Lonesome|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|02|Love Love Scarlet|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
+|FINAL|relegation grimoire|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 
 ***&amp;color(white,#f73562){SKILL ANALYZER Level.07 雷電}; [#Lv07]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / ''雷電'' / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -373,6 +422,15 @@
 |01|恋はどう？モロ◎波動OK☆方程式!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Nostalgia|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
 |FINAL|君は Fantasista|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|wander+wonder+wand|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|Gaze ft. 紫崎 雪|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
+|FINAL|Virtual Sunrise (xac remix)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|神にした彼女が示す世界線|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|LEMON SUMMER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|FINAL|創世ノート|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+
 
 ***&amp;color(white,#ff69b4){SKILL ANALYZER Level.08 麗華}; [#Lv08]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / ''麗華'' / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -412,6 +470,14 @@
 |01|鎖の少女|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Laughin' Muffin|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ナナホシのうた|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|フラッター現象の顛末と単一指向性の感情論|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|恋愛&amp;#9825;悪戯！？まじかる☆ぱふゅ〜む！！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|テレポーテーションでやってきた彼とのその後の顛末|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|Enchant&amp;#233;|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
+|02|ナミカレ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|Onigo|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 
 ***&amp;color(black,#e5eeff){SKILL ANALYZER Level.09 魔騎士}; [#Lv09]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / ''魔騎士'' / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -451,6 +517,14 @@
 |01|fancy cake!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|HiGHER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Coldlapse|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|Question.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|最小三倍完全数|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|FINAL|星座が恋した瞬間を。|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|rainbow flyer -gratitude remix-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+|02|スピーカーガール！|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):16|
+|FINAL|Apex of the World|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 
 ***&amp;color(black,yellow){SKILL ANALYZER Level.10 剛力羅}; [#Lv10]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / ''剛力羅'' / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -490,6 +564,14 @@
 |01|雲の彼方|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|Virtual Bit|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Aftermath|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|０=Xerostrumental=|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|02|Empty Backdoor|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|FINAL|2 MINUTES FIGHTERS|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|Fun walk!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|02|Royal Action|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+|FINAL|Destroy|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):17|
 
 ***&amp;color(#fcdac7,red){SKILL ANALYZER Level.11 或帝滅斗}; [#Lv11]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / ''或帝滅斗'' / [[暴龍天&gt;#Lv_infinite]]
@@ -526,6 +608,14 @@
 |01|まじかる生主＠りすなちゃん|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|LECTORIA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
 |FINAL|All for One|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;追想叙事詩篇|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|Angels And Demons|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
+|02|Divine's:Bugscript|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|FINAL|XHAOS JUDGE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|EGOISM 440 (Ange;art remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|02|MODEL FT4|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|FINAL|For UltraPlayers|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
 
 ***&amp;color(yellow,midnightblue){SKILL ANALYZER Level.∞ 暴龍天}; [#Lv_infinite]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / [[瞬光&gt;#Lv04]] / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / ''暴龍天''
@@ -562,6 +652,14 @@
 |01|DIABLOSIS::N&amp;#257;ga|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|Verse IV|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |FINAL|Σmbry&amp;#216;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|01|FLOWER|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
+|02|GERBERA-For Finalists-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|FINAL|Bl∞min'|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;暁光の翼篇|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|01|ラクガキスト|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
+|02|色を喪った街|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;幻想御伽篇|
+|FINAL|いまきみに|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;宵闇の翼篇|
 
 **課題曲リスト(特殊コース) [#track_list_special]
 -The 10th KAC予選コースに関しては[[別項&gt;SOUND VOLTEX VIVID WAVE/SKILL ANALYZER#the10thkac]]を参照。また、&amp;color(red){''本作プレーできない''};ため注意。
