@@ -11,14 +11,15 @@
 
 **挑戦手順 [#how_to]
 +モード選択で「SKILL ANALYZER」を選択する。
---支払方法を「LIGHT START」と「STANDARD START(2023/05/30追加)」から選択。
----STANDARD STARTのメリットは、【神】モード挑戦可、S-CRITICAL使用可、1曲COMPLETE毎にEXTRACK GAUGEを獲得(蓄積のみでEXTRCK進出は不可)。
+--支払方法を「LIGHT START」と「STANDARD START(2023/05/30追加、Valkyrie model専用)」から選択。
+---STANDARD STARTのメリットは【神】モード挑戦可、S-CRITICAL使用可、1曲COMPLETE毎にEXTRACK GAUGEを獲得(蓄積のみでEXTRCK進出は不可)。
 +コースを選択する。
 --選曲画面は段位ごとのページ制になっており、VOL-Lでページ(段位)を選択した後にVOL-Rでページ内の受験したいコースを選択する。
 +1曲ごとに従来のモードと同様にオンラインマッチングが行われる。その間にオプションの変更も可能。
 --受験中のプレーヤーのRATE STYLE表記は&quot;&lt;S&gt;&quot;と表示される。
 --MIRROR・RANDOMオプションは&amp;color(red){''2023/05/30以降使用可能となった''};。S-RANDOMは不可。
---「マッチングアシスト」のマークがついているSKILL LV.01〜07は他プレーヤーとマッチングするとゲージが10%回復する(マッチング人数によらない)。
+---従来筐体のオプション変更はプレー開始前のみしかできない。
+--「マッチングアシスト」のマークがついているSKILL LV.01〜07は他プレーヤーとマッチングするとゲージが10%回復する。(マッチング人数によらない)
 +プレー中はゲージが専用の「[[PERMISSIVE RATE&gt;SOUND VOLTEX EXCEED GEAR/システム#rate_style]]」に変わる。ゲージが0.00%になるとステージ途中でも強制終了、TRACK CRASHとなる。
 +1曲終了ごとにリザルト画面が表示され、[[BONUS&gt;SOUND VOLTEX EXCEED GEAR/システム#bonus]]も獲得できる。
 --各楽曲の成績のクリアメダルはULTIMATE CHAINもしくはPERFECTのみ保存され、1つでもERRORを出してしまうとTRACK CRASHと同じ扱いになる。
@@ -340,7 +341,7 @@
 |FINAL|Happy Sensation|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
 |01|シャ ビ ドゥ 素敵な恋の魔法|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|02|Twin Rocket|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):11|
+|02|Twin Rocket|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|ABSOLUTE (EUROBEAT REMIX)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
 |01|WAVE WAVE WAVE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
