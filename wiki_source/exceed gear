@@ -146,7 +146,9 @@
 |~|2023/04/03|-|-|-|-4|-4|
 |第6回|2023/08/09|各1|1|1|-|12|
 |KAC(2023)|~|-|-|-|2|2|
+|~|2023/09/13|-|-|-|-2|-2|
 |第7回|2023/09/14|各1|1|1|-|12|
+|KAC(2023)|2023/09/20|-|-|-|2|2|
 |&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各11|BGCOLOR(lightyellow):10|BGCOLOR(lightyellow):10|BGCOLOR(lightyellow):2|BGCOLOR(yellow):132|
 
 //テンプレート
@@ -946,26 +948,35 @@
 
 
 ***KAC(2023)予選コース [#kac2023]
--2023/08/09〜
+-2023/08/09〜2023/10/24限定
 --KAC(2023)のSOUND VOLTEX部門にエントリーすると出現。
+---予選集計対象期間が終了するとコースが出現しなくなる。
 --''KAC2023チャレンジコース''
----KAC予選の対象となるコース。
----コースを完走すると特別スキル称号「''完喰''」を獲得。
+---[[KAC予選&gt;公式大会/KONAMI Arcade Championship(2023)/予選ラウンド#SDVX]]の対象となるコース。
+---コースを完走すると特別スキル称号を獲得。予選ラウンドAでは「''完喰''」、予選ラウンドBでは「''夢吹''」がもらえる。
 
-|TRACK|曲名|難易度|Lv|KAC予選集計対象期間|h
+|TRACK|曲名|難易度|Lv|KAC予選集計対象期間&amp;br;(プレー可能期間)|h
 |CENTER:||COLOR(white):CENTER:|CENTER:||c
 |&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【完喰】''|
 |01|パーフェクトイーター|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2023/08/09 10:00&amp;br;〜2023/09/12 18:00|
 |02|Preserved Valkyria|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|~|
 |FINAL|Rhapsody &amp;#9881;f Triumph|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【夢吹】''|
+|01|ユメブキ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2023/09/20 10:00&amp;br;〜2023/10/24 18:00|
+|02|†:OLPHEUX:†|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
+|FINAL|ZEUS|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 
 --''KAC2023エンジョイコース''
 ---チャレンジコースの低難易度版。ただし、こちらのコースはKACの予選に使用されない。
----こちらのコースを完走しても特別スキル称号「''完喰''」を獲得。
+---こちらのコースを完走しても特別スキル称号を獲得。予選ラウンドAでは「''完喰''」、予選ラウンドBでは「''夢吹''」がもらえる。
 
-|TRACK|曲名|難易度|Lv|h
-|CENTER:||COLOR(white):CENTER:|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【完喰】''|
-|01|パーフェクトイーター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
-|02|Preserved Valkyria|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
-|FINAL|Rhapsody &amp;#9881;f Triumph|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|
+|TRACK|曲名|難易度|Lv|プレー可能期間|h
+|CENTER:||COLOR(white):CENTER:|CENTER:||c
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【完喰】''|
+|01|パーフェクトイーター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|2023/08/09 10:00&amp;br;〜2023/09/12 18:00|
+|02|Preserved Valkyria|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|~|
+|FINAL|Rhapsody &amp;#9881;f Triumph|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【夢吹】''|
+|01|ユメブキ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|2023/09/20 10:00&amp;br;〜2023/10/24 18:00|
+|02|†:OLPHEUX:†|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
+|FINAL|ZEUS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
