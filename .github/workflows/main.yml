@@ -32,10 +32,12 @@ jobs:
         python crawler.py
     - name: update repo
       run: |
-        git config user.name $USER_NAME
-        git config user.email $USER_EMAIL
-        git add wiki_source
-        git commit -m "$(date +"%Y-%m-%d") update wiki source"
-        git push
+        if [[ `git status --porcelain` ]]; then
+          git config user.name $USER_NAME
+          git config user.email $USER_EMAIL
+          git add wiki_source
+          git commit -m "$(date +"%Y-%m-%d") update wiki source"
+          git push
+        fi
 
         
