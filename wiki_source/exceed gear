@@ -79,10 +79,11 @@
 //--コースが出現するのは課題譜面をインプットした次のクレジットからとなる。
 //↑スキアナが独立モードでなかったIV時代の記述なのでCO
 
-//-楽曲削除があった場合、その曲を含むコース自体が削除される。
+-楽曲削除があった場合、その曲を含むコース自体が削除される。
 //--(要検証)その場合、SKILL LEVELはそのコース以外で最高のものに変更される。~
 //そのため、そのコース以外は下位の段位しか取得していなかった場合、自身のSKILL LEVELが下がることになる。
-//---今作では対象コースが削除されたにもかかわらず魔騎士を維持している報告あり。
+--その場合でもSKILL LEVELは維持される模様。
+---過去作では削除されたコースのみ合格していた場合、SKILL LEVELが下がることがあった。
 
 **【神】モード [#DIVINE]
 -2023/06/01実装
@@ -127,6 +128,8 @@
 -[[公式HPによる課題曲リスト&gt;http://p.eagate.573.jp/game/sdvx/vi/playdata/skill/index.html]]
 --当Wikiでは課題曲に別途譜面解禁が必要な場合の解禁条件等を併せて記載している。
 
+-2024/06/06の楽曲削除に伴い、当該楽曲が課題曲に含まれていたコースが削除された。
+
 |回|配信日|&gt;|&gt;|&gt;|&gt;|コース数|h
 |~|~|&gt;|&gt;|通常コース|特殊コース|計|
 |~|~|01〜10|11|∞|~|~|
@@ -154,7 +157,8 @@
 |第8回|2023/12/07|各1|1|1|-|12|
 |エイプリルフール2024&amp;br;(2022復刻)|2024/04/01|-|-|-|4|4|
 |~|2024/04/04|-|-|-|-4|-4|
-|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):各12|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):0|BGCOLOR(yellow):142|
+|(曲削除に伴うコース削除)|2024/06/06|-5|-|-|-|-5|
+|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):115((12コースが5、11コースが5))|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):0|BGCOLOR(yellow):137|
 
 //テンプレート
 //|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
@@ -447,10 +451,14 @@
 |01|party:stage|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|君がいる場所へ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Scene|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+//
+|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|REDO the NIGHT|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Cappuccino Hearts|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|リズの内心革命|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
+//
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
 |01|透明な記憶の風穴|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|Mysterious Nights|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
@@ -575,10 +583,14 @@
 |01|神にした彼女が示す世界線|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|LEMON SUMMER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|創世ノート|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+//
+|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回 &amp;color(#f00){(2024/06/06削除)};''|
 |01|過去に囚われている|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Jailbreaker|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|SprrRush!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
+//
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
 |01|sparky spark|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|ミライプリズム|BGCOLOR(#e2a):''INF''|BGCOLOR(#fce):15|
@@ -631,10 +643,14 @@
 |01|フラッター現象の顛末と単一指向性の感情論|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|恋愛&amp;#9825;悪戯！？まじかる☆ぱふゅ〜む！！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|テレポーテーションでやってきた彼とのその後の顛末|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+//
+|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|Enchant&amp;#233;|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|ナミカレ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|Onigo|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
+//
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
 |01|Lieselotte|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|cr&amp;#234;pe suzette|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
@@ -675,10 +691,14 @@
 |01|Innocent|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|Venomous Firefly|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|The Sampling Paradise (P*Light Remix)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+//
+|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回 &amp;color(#f00){(2024/06/06削除)};''|
 |01|Engraved Mark-Gow's ill! RMX-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|くらべられっ子|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|黎明スケッチブック|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+//
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
 |01|デストロイマーチ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|Mind Mapping(ag Remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
@@ -739,10 +759,14 @@
 |01|- Jupiter -|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Sulk|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|狂水一華|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+//
+|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|泥の分際で私だけの大切を奪おうだなんて|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|そして紫の幻想曲は全てを受け入れる|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Chocolate Parade|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
+//
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
 |01|雲の彼方|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|Virtual Bit|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
