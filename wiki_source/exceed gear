@@ -12,7 +12,7 @@
 **挑戦手順 [#how_to]
 +モード選択で「SKILL ANALYZER」を選択する。
 --支払方法を「LIGHT START」と「STANDARD START(2023/05/30追加、Valkyrie model専用)」から選択。
----STANDARD STARTのメリットは【神】モード挑戦可、S-CRITICAL使用可、1曲COMPLETE毎にEXTRACK GAUGEを獲得(蓄積のみでEXTRCK進出は不可)。
+---STANDARD STARTのメリットは【神】モード挑戦可、S-CRITICAL使用可、1曲COMPLETE毎にEXTRACK GAUGEを獲得。(蓄積のみでEXTRCK進出は不可)
 +コースを選択する。
 --選曲画面は段位ごとのページ制になっており、VOL-Lでページ(段位)を選択した後にVOL-Rでページ内の受験したいコースを選択する。
 +1曲ごとに従来のモードと同様にオンラインマッチングが行われる。その間にオプションの変更も可能。
@@ -27,7 +27,7 @@
 +3曲完奏で合格となり、[[報酬&gt;#rewards]]を獲得できる。
 --トータルリザルト画面では達成率が表示される。
 ---合格時の達成率は''100〜200%''の範囲となる。~
-計算式：''100% + (3曲のスコアの平均 - 900万) / 1万''(端数切り捨ての整数表記)~
+計算式:''100% + (3曲のスコアの平均 - 900万) / 1万''(端数切り捨ての整数表記)~
 ※スコア平均が900万未満の場合は一律100%。
 ---不合格時の達成率は''0〜99%''の範囲となる。~
 計算式:''33.3% × (完奏した曲数 + 途中でTRACK CRASHした曲の小節数or時間の割合)''(端数切り捨ての整数表記)。
@@ -96,11 +96,12 @@
 --NEARでもレートが減少、回復はS-CRITICALのみ。ERROR時の減少量も増えている(PERMISSIVE RATEの約1.5倍)。
 |判定|&gt;|DIVINE RATE|&gt;|PERMISSIVE RATE|h
 |~|チップ&amp;br;直角|ロング&amp;br;アナログ|チップ&amp;br;直角|ロング&amp;br;アナログ|h
-|CENTER:|CENTER:70|CENTER:70|CENTER:70|CENTER:70|c
+|CENTER:|&gt;|&gt;|&gt;|CENTER:70|c
 |S-CRITICAL|+4T/n|+T/n|+4T/n|+T/n|
 |CRITICAL|±0.00%|-|~|~|
 |NEAR|-1.00%|-|+4T/3n|-|
 |ERROR|-5.00%|-1.25%|-3.40%|-0.85%|
+
 ---T:ゲージの総増加量
 ---n:(総CHAIN数)+(チップと直角の総数)×3
 --各コースの楽曲構成自体は通常時と同じ。
@@ -110,15 +111,18 @@
 ---クリア時に通常時のものと変更するか選択可能。(要確認)通常のコースをクリアすれば通常の枠に変更可能?・【神】装飾の付いているLEVELより上のLEVELの通常コースクリア時は没収される?
 ---銀枠は2種類あり、最新でないコースを【神】モードでクリアした(通常でいうところの「なし」)状態でも専用の枠がつく。
 ---枠の色については【神】モードの達成数のみで決まる。例えば金枠につけたいなら全コースを【神】でクリアする必要がある。
+
 |枠(装飾)|条件|h
 |CENTER:||c
 |銀枠(小)|自己ベストのSKILL LEVELの「最新コース以外」を【神】モードで合格&amp;br;通常コースが新規に追加されると全員この状態にリセットされる|
 |銀枠(中)|自己ベストのSKILL LEVELの「最新コース」を【神】モードで合格&amp;br;最新回がA〜Cのように複数ある場合、いずれか1つに合格すればよい&amp;br;装飾が大きくなり下に銀のSマーク追加|
 |金枠(中)|自己ベストのSKILL LEVELの「全てのコース」を【神】モードで合格&amp;br;1つの回に複数コースがある場合もすべて合格する必要がある&amp;br;全体の色・Sマークが金色に変化|
 |金枠(大)|自己ベストのSKILL LEVELの【神】モードでの全コースの達成率が基準値以上になっている&amp;br;基準値は暴龍天180%、或帝滅斗170%、剛力羅160%、魔騎士以下150%&amp;br;後光の装飾が追加・放電のエフェクトが追加|
+
 --各称号は通常時の称号のアレンジになっており、そのレベルの名前(01なら「岳」と「翔」)+「神」の文字が含まれる。また、文字色がプレートと同じ色になっている。
 --通常モードで一度もクリアしていないレベルを【神】モードでクリアすると通常の称号と両方同時に獲得する。
 --クリア回数に応じてもらえるPCBは通常分とは別にカウントされる。もらえるPCBの量は通常分と同じ。
+
 -【神】モードの合格時の達成率計算はEX SCOREの対MAX比率を使用したものになる。
 --計算式：''100% + (3曲の対MAX比率の平均 - 90%) × 10''(端数切り捨ての整数表記)~
 ※対MAX比率の平均が90%未満の場合は一律100%。
@@ -133,7 +137,7 @@
 |回|配信日|&gt;|&gt;|&gt;|&gt;|コース数|h
 |~|~|&gt;|&gt;|通常コース|特殊コース|計|
 |~|~|01〜10|11|∞|~|~|
-|CENTER:||CENTER:|CENTER:|CENTER:|CENTER:|BGCOLOR(lightyellow):CENTER:|c
+|&gt;|&gt;|&gt;|&gt;|&gt;|CENTER:|CENTER:BGCOLOR(lightyellow):|c
 |第1回|2021/02/24|各3|2|2|-|34|
 |10周年記念|2022/01/18|-|-|-|4|4|
 |第2回|2022/02/15|各1|1|1|-|12|
@@ -155,13 +159,13 @@
 |KAC(2023)|2023/09/20|-|-|-|2|2|
 |~|2023/10/25|-|-|-|-2|-2|
 |第8回|2023/12/07|各1|1|1|-|12|
-|エイプリルフール2024&amp;br;(2022復刻)|2024/04/01|-|-|-|4|4|
+|エイプリルフール2024&amp;br;2022復刻|2024/04/01|-|-|-|4|4|
 |~|2024/04/04|-|-|-|-4|-4|
-|(曲削除に伴うコース削除)|2024/06/06|-5|-|-|-|-5|
-|&gt;|BGCOLOR(lightyellow):CENTER:合計|BGCOLOR(lightyellow):115((12コースが5、11コースが5))|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):0|BGCOLOR(yellow):137|
+|楽曲削除に伴うコース削除|2024/06/06|-5|-|-|-|-5|
+|&gt;|CENTER:BGCOLOR(lightyellow):合計|BGCOLOR(lightyellow):115((12コースが5、11コースが5))|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):11|BGCOLOR(lightyellow):0|BGCOLOR(yellow):137|
 
 //テンプレート
-//|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第x回 yコース''|
+//|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第x回 yコース''|
 //|01||BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):|
 //|02||BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):|
 //|FINAL||BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):|
@@ -182,51 +186,51 @@
 |&gt;|&gt;|&gt;|BGCOLOR(brown):COLOR(white):SKILL LV.01 &amp;size(16){岳翔};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|Aurolla|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|Demetel|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|neko＊neko|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|消失(Hommarju Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|ナナイロライト|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Rebellio|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|FIRST：DREAMS|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|The Starry true|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Bad Apple!! feat. nomico|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|Turn the story|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|moon|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Darkness Pleasure|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|ラヴ&amp;#9825;チャンス!!|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|センチメント|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|星屑ユートピア|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|VALLIS-NERIA|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|Fly to Next World (syzfonics Remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|I feel something for you|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|Mynarco(Nagomu 2Step Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|再教育|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|炉心融解|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|悪戯センセーション|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|HΨ=世界創造=EΨ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Just Be Friends|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|灼熱Beach Side Bunny|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|十面相（フリーダムver.）|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|取り残された美術(Arranged:HiZuMi)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|怪盗Ｆの台本〜消えたダイヤの謎〜|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|待チ人ハ来ズ。|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Future MUSiC|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|準備運動|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|honey trap|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|777|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|Beyond the BLUE|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|Alice Maestera feat. nomico|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |FINAL|Triple Counter|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
@@ -242,51 +246,51 @@
 |&gt;|&gt;|&gt;|BGCOLOR(navy):COLOR(white):SKILL LV.02 &amp;size(16){流星};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|SEED (DJ Noriken Remix)|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|ダブルラリアット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|地球防衛乙女パンナコッター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|メランコリック|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|裏表ラバーズ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|キズナ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|サイコパスコミュニケーション|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|からくりピエロ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|LOVE EAST|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|BELOBOG|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|ずっとそばにいさせてよね！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|HAPPY HEART BEAT|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|Chronomia|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):7|
 |02|鳥と桜と嘴と|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Pieces|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|冒涜的選択のアレグリア ft. Mayumi Morinaga|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|Crystallize Forest|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|バタフライキャット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|非公開日誌|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|最果てのコトバ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Iterator|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|パンダヒーロー|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|善悪の頂にある真実|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Shirogane|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|Arcadia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|FIRE IN MY HEART|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|シアワセうさぎ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|Virtual Sunrise (nana's Festival EDM Remix) feat. Kanae Asaba|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|隅田川夏恋歌 (I/O Angel mix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|深海シティアンダーグラウンド|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|いーあるふぁんくらぶ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|StrayedCatz|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|明星ロケット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|Shiny Up!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):7|
 |02|Find the Answer|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
 |FINAL|Mr.VIRTUALIZER|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):8|
@@ -302,55 +306,54 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#fcc800):COLOR(black):SKILL LV.03 &amp;size(16){月衝};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|VOLTEXES II|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|炎夏の音|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|幽玄の桜|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|冬に桜が咲くようなキセキ。|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|虹色の花|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|ナイフ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|すろぉもぉしょん|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|トーキョーサマーナイト|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|PUNISHER|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|50th Memorial Songs -Beginning Story-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Jump!|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|dream control|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|ミラクル・スイート・スイーツ・マジック！！|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Blue Forest(NightBounce Remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|spectroscape|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|サンドリヨン|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|おにいちゃんハイテック|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Voltage Higher|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|ネトゲ廃人シュプレヒコール|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Secret Traveler -MeniRemix-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|ゴーストマスコット|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|ホメ猫☆センセーション|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|JULIAN|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|神っぽいな|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|碧の疾風|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|8 -eight-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|The Wind of Gold -HΔPPY MIX-|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|星の器 feat. らっぷびと|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|Second Heaven GravityPfArrange|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|BEAT MAGIC|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|Le ××××|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|朧 (kamome sano remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|六兆年と一夜物語|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|君と僕とその空白と|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):9|
 |02|灼熱のBlazin' Beat|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |FINAL|Hi-Fi!!双子'S|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
-
 
 ***&amp;color(black,#d4d9dc){SKILL ANALYZER Level.04 瞬光}; [#Lv04]
 [[岳翔&gt;#Lv01]] / [[流星&gt;#Lv02]] / [[月衝&gt;#Lv03]] / ''瞬光'' / [[天極&gt;#Lv05]] / [[烈風&gt;#Lv06]] / [[雷電&gt;#Lv07]] / [[麗華&gt;#Lv08]] / [[魔騎士&gt;#Lv09]] / [[剛力羅&gt;#Lv10]] / [[或帝滅斗&gt;#Lv11]] / [[暴龍天&gt;#Lv_infinite]]
@@ -363,51 +366,51 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#d4d9dc):COLOR(black):SKILL LV.04 &amp;size(16){瞬光};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|Our Faith (takdrive remix)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|ultra turbo|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|好きトキメキとキス|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|おお われら喜び讃うべし、主よ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Dawn of Asia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|F&amp;#225;fnir|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|ケロ��destiny|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|No way|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|スイーツはとまらない♪|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|憂恋☆アクティベーション|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Decretum|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|抜刀|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|仇返しシンドローム|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Melty Sweets|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|ネメシス SDVX Edit|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|港町レディ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|自由のための不自由|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):11|
 |FINAL|ぼくらの16bit戦争|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|Frantic Wolf|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|孤月群雲に沈む|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|Happy Sensation|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|シャ ビ ドゥ 素敵な恋の魔法|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Twin Rocket|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|ABSOLUTE (EUROBEAT REMIX)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|WAVE WAVE WAVE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Junk Mania|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|scary night|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|concon (picom'n'bass rmx)|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|私の恋色。|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|終点|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|水槽のクジラ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|オンディーヌの泪|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|Follow Up|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|ジャンピン・スマイル|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):10|
 |02|Inixia|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
 |FINAL|ハイスピヰド・ランパンシヰ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):11|
@@ -423,55 +426,55 @@
 |&gt;|&gt;|&gt;|BGCOLOR(deepskyblue):COLOR(white):SKILL LV.05 &amp;size(16){天極};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|CRITICAL LINE|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Thank you for your playing music|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Nhelv|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|Into The Madness|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|春時雨|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Blessing Bouquet|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|cloud|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|木彫り鯰と右肩ゾンビ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Altale|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|MEGANE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|Sephirot|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|晴天Bon Voyage|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|Sparkling Laser Beam|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|まみむめ&amp;#127812;まるっと&amp;#127812;まっしゅるーむ&amp;#127812;&amp;#127812;|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|Catadioptric|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|Hail Storm|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|PSYCHO+HEROES|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|気まぐれスターダム|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|party:stage|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|君がいる場所へ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Scene|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 //
-|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
+|CENTER:BGCOLOR(gray):|BGCOLOR(gray):|CENTER:BGCOLOR(gray):COLOR(white):|CENTER:BGCOLOR(gray):|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|REDO the NIGHT|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Cappuccino Hearts|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|リズの内心革命|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 //
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|透明な記憶の風穴|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):12|
 |02|Mysterious Nights|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
 |FINAL|Sakura Reflection 音頭 -盆踊Remix-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|それは花火のような恋|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|She Turns Me On|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
 |FINAL|.59 -BOOTH BOOST REMIX-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|Profession|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|天弓天華オトハナビ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |FINAL|Divine's or Deal|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|Bol&amp;#233;rrot|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |02|Clash of swords|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|
 |FINAL|NOT YOUR IDOL|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|
@@ -487,51 +490,51 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#25b7c0):COLOR(white):SKILL LV.06 &amp;size(16){烈風};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|Lionheart|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Night Rockin' Bird|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|disco KAWAii|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|モザイクロール|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|イカサマライフゲイム|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|cobalt|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|DEEP PSYCHEDELIC STRIKER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|VIVID DEBUT!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|雲海|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|Colors|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|OVERDRIVERS|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|DESIRE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|感情Xerography|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|恋するレインガール|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|イブの時代っ！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|Screaming!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Adrenaline Rush|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|げきオコスティックファイナリアリティぷんぷんマスタースパーク|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|Pixelated Platform|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|祭囃子|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Technical Master|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|キリステゴメン|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|熱情のサパデアード|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|コンフェイト＊コンチェルト|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|Still Lonesome|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|Love Love Scarlet|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|relegation grimoire|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|近未来百鬼夜行譚〜死返之巻〜|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|インビジブル|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|零の位相|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|sink into the dream|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|シル・ヴ・プレジデント|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|EGG|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|狂騒こども節|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |02|カシオペアノヒカリ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
 |FINAL|Heavenly Adventure|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):14|
@@ -547,55 +550,55 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#f73562):COLOR(white):SKILL LV.07 &amp;size(16){雷電};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|Me:Tear|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Aragami|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|きゅん×きゅんばっきゅん☆LOVE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|Xibercannon|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Gorgetech|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Goddess Bless you|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|Dharma|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|月々紅花|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Last Battalion|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|セイシュンライナー|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|V|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Ethereal Lotus|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|恋繋エピローグ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Paradoxy|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|Russian Caravan Rhapsody|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|KIMIDORI Streak!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|NEXT BILLIONAIRE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|citrus|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|恋はどう？モロ◎波動OK☆方程式!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Nostalgia|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
 |FINAL|君は Fantasista|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|wander+wonder+wand|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Gaze ft. 紫崎 雪|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
 |FINAL|Virtual Sunrise (xac remix)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|神にした彼女が示す世界線|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|LEMON SUMMER|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|創世ノート|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 //
-|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回 &amp;color(#f00){(2024/06/06削除)};''|
+|CENTER:BGCOLOR(gray):|BGCOLOR(gray):|CENTER:BGCOLOR(gray):COLOR(white):|CENTER:BGCOLOR(gray):|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回 &amp;color(#f00){(2024/06/06削除)};''|
 |01|過去に囚われている|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Jailbreaker|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|SprrRush!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
 //
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|sparky spark|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|ミライプリズム|BGCOLOR(#e2a):''INF''|BGCOLOR(#fce):15|
 |FINAL|take a step forward|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|のぼれ八坂坂！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|MONOLITH|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |FINAL|はわわｗ！な展開っ！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
@@ -611,55 +614,55 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#ff69b4):COLOR(white):SKILL LV.08 &amp;size(16){麗華};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|ウサテイ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Φnd:you|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|孤独の番人|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|ELECT|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|翠雨の祷|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|爆なな☆てすとロイヤー|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|キュリオシティ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Lo-Fi-M|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ポメグラネイト|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|Cleopatrysm|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|オトゲラヴ！|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Blacksphere|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|Unlimited Field|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|メイビ〜初恋！？ビスケット☆大作戦|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|FlowerNation|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|コミカルなミシャグジとラジエーション(PUNK IT ver.)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Chlo&amp;#233;|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|starmine (nora2r Remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|鎖の少女|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|Laughin' Muffin|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|ナナホシのうた|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|フラッター現象の顛末と単一指向性の感情論|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|恋愛&amp;#9825;悪戯！？まじかる☆ぱふゅ〜む！！|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|テレポーテーションでやってきた彼とのその後の顛末|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 //
-|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース &amp;color(#f00){(2024/06/06削除)};''|
+|CENTER:BGCOLOR(gray):|BGCOLOR(gray):|CENTER:BGCOLOR(gray):COLOR(white):|CENTER:BGCOLOR(gray):|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|Enchant&amp;#233;|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|ナミカレ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|Onigo|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 //
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|Lieselotte|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|cr&amp;#234;pe suzette|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|゜*。Chantilly Fille。*°|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|twilight signal|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):15|
 |02|&amp;#12436;ぉるみっくす!!!!|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|I'm so Happy|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|刃の如く ft. ネコメアリ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):15|
 |02|GRISAILLE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|FEEL THE FORCE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
@@ -675,55 +678,55 @@
 |&gt;|&gt;|&gt;|BGCOLOR(#e5eeff):COLOR(black):SKILL LV.09 &amp;size(16){魔騎士};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|偶然？ 必然？ アンビバレンス！|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|幸せになれる隠しコマンドがあるらしい|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|D1g1t1ze b0dy|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|ツーマンライブ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|けもののおうじゃ★めうめう|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|逆さま&amp;#9829;シンデレラパレード|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|crazy cinema story|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|冥 Rockin' SWING REMIX|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|AXION|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|Innocent|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|Venomous Firefly|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|The Sampling Paradise (P*Light Remix)|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 //
-|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回 &amp;color(#f00){(2024/06/06削除)};''|
+|CENTER:BGCOLOR(gray):|BGCOLOR(gray):|CENTER:BGCOLOR(gray):COLOR(white):|CENTER:BGCOLOR(gray):|c
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回 &amp;color(#f00){(2024/06/06削除)};''|
 |01|Engraved Mark-Gow's ill! RMX-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|くらべられっ子|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|黎明スケッチブック|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 //
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|デストロイマーチ|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|Mind Mapping(ag Remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|木洩れ日に咲く|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|fancy cake!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|HiGHER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Coldlapse|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|Question.|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|最小三倍完全数|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|星座が恋した瞬間を。|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|rainbow flyer -gratitude remix-|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|スピーカーガール！|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):16|
 |FINAL|Apex of the World|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|トキメキストリーム|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Never Ending Future|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|β|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|Paranoia|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |02|*ハロー、プラネット。|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |FINAL|Re:call|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|Aqua,Luna-rium|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):16|
 |02|Dogeza Stairs|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):16|
 |FINAL|Realize／アニメ「Re:ゼロから始める異世界生活」より|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
@@ -739,55 +742,55 @@
 |&gt;|&gt;|&gt;|BGCOLOR(yellow):COLOR(black):SKILL LV.10 &amp;size(16){剛力羅};|h
 |TRACK|曲名|難易度|Lv|h
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|星の詩|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|キラメキ居残り大戦争|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Booth of Fighters|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|おどりましょうよ！ドラゴンさん 〜転生したらゲーム曲でした〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|オルターエゴ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Nofram|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Cコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第1回 Cコース''|
 |01|SHION -sublimation mix-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Non RolicK!!大冒険|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|ULTRA B+K|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第2回''|
 |01|Tic Exe|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|MilK|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Innocent Azure|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第3回''|
 |01|- Jupiter -|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Sulk|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|狂水一華|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|
 //
-|BGCOLOR(gray):CENTER:|BGCOLOR(gray):|BGCOLOR(gray):CENTER:COLOR(white):|BGCOLOR(gray):CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース &amp;color(#f00){(2024/06/06削除)};''|
+|CENTER:BGCOLOR(gray):|BGCOLOR(gray):|CENTER:BGCOLOR(gray):COLOR(white):|CENTER:BGCOLOR(gray):|c
+|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第4回 Aコース &amp;color(#f00){(2024/06/06削除)};''|
 |01|泥の分際で私だけの大切を奪おうだなんて|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|そして紫の幻想曲は全てを受け入れる|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Chocolate Parade|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 //
 |CENTER:||CENTER:COLOR(white):|CENTER:|c
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|雲の彼方|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|Virtual Bit|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Aftermath|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|０=Xerostrumental=|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |02|Empty Backdoor|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|2 MINUTES FIGHTERS|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|Fun walk!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Royal Action|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Destroy|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第6回''|
 |01|斑咲花|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|NEON LOVE&amp;#9829;POTION!!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|Candy Colored Hearts|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第7回''|
 |01|フォニイ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|WONDER_WOBBLER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |FINAL|ネメシス SDVX Edit|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
-|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''第8回''|
 |01|MOVE! (We Keep It Movin')|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):17|
 |02|Dualive|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
 |FINAL|Harpuia|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):17|
@@ -804,49 +807,49 @@
 |&gt;|&gt;|&gt;|&gt;|BGCOLOR(red):COLOR(#fcdac7):SKILL LV.11 &amp;size(16){或帝滅斗};|h
 |TRACK|曲名|難易度|Lv|解禁条件(参考)|h
 |CENTER:||CENTER:COLOR(white):|CENTER:||c
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
-|01|緋色月下、狂咲ノ絶 (nayuta 2017 ver)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第1回 Aコース''|
+|01|緋色月下、狂咲ノ絶 (nayuta 2017 ver)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
 |02|神獄烙桜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.1|
-|FINAL|НУМЛ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
-|01|Destr0yer|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|FINAL|НУМЛ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第1回 Bコース''|
+|01|Destr0yer|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
 |02|SAMURAI TIGER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;幻想御伽篇編|
 |FINAL|ムーニャポヨポヨスッポコニャーゴ|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第2回''|
 |01|OPEN MY GATE|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.2|
-|02|GALAXY BURST|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|MeteorA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|02|GALAXY BURST|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|FINAL|MeteorA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第3回''|
 |01|トマヨイ|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|祝福の色彩は想い結ぶ君たち迄|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
-|FINAL|SuperMiracleEnsemble|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|FINAL|SuperMiracleEnsemble|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第4回 Aコース''|
 |01|AIM HIGHER|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;追想叙事詩篇|
 |02|THE HEAVEN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
 |FINAL|Completeness Under Incompleteness|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|まじかる生主＠りすなちゃん|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
-|02|LECTORIA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|02|LECTORIA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
 |FINAL|All for One|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;追想叙事詩篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
-|01|Angels And Demons|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
-|02|Divine's:Bugscript|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|XHAOS JUDGE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
-|01|EGOISM 440 (Ange;art remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|02|MODEL FT4|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|For UltraPlayers|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
-|01|Touch My Body|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第5回 Aコース''|
+|01|Angels And Demons|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|CENTER:-|
+|02|Divine's:Bugscript|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|FINAL|XHAOS JUDGE|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第5回 Bコース''|
+|01|EGOISM 440 (Ange;art remix)|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|02|MODEL FT4|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|FINAL|For UltraPlayers|BGCOLOR(#f33):''EXH''|BGCOLOR(#fdd):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第6回''|
+|01|Touch My Body|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
 |02|蝕|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;アザレアの使命篇|
 |FINAL|trea→journey|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第7回''|
 |01|Butterfly Twist|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.8|
-|02|Khionos TiARA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|FINAL|Archangelio|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
-|01|CadenzaMaiden|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
-|02|Test Flight|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|-|
+|02|Khionos TiARA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|FINAL|Archangelio|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第8回''|
+|01|CadenzaMaiden|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
+|02|Test Flight|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|CENTER:-|
 |FINAL|サイコパスラビット|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.5|
 
 ***&amp;color(yellow,midnightblue){SKILL ANALYZER Level.∞ 暴龍天}; [#Lv_infinite]
@@ -861,47 +864,47 @@
 |&gt;|&gt;|&gt;|&gt;|BGCOLOR(midnightblue):COLOR(yellow):SKILL LV.∞ &amp;size(16){暴龍天};|h
 |TRACK|曲名|難易度|Lv|解禁条件(参考)|h
 |CENTER:||CENTER:COLOR(white):|CENTER:||c
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Aコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第1回 Aコース''|
 |01|ΛΛemoria|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;侵寇の王女編|
-|02|onslaught -Retaliation of Baham&amp;#363;t-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|02|onslaught -Retaliation of Baham&amp;#363;t-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|CENTER:-|
 |FINAL|I|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.3|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第1回 Bコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第1回 Bコース''|
 |01|Cross Fire|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
 |02|ΑΩ|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |FINAL|Xroni&amp;#232;r|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.5+|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第2回''|
-|01|Lisa-RICCIA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第2回''|
+|01|Lisa-RICCIA|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|CENTER:-|
 |02|OUTERHEΛVEN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.8|
 |FINAL|XHRONOXAPSULΞ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;追想叙事詩篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第3回''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第3回''|
 |01|INSECTICIDE|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|Lancelot 〜Flame of the Rebellion〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.7|
 |FINAL|MixxioN|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;アザレアの使命篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):CENTER:''第4回 Aコース''|
 |01|GODHEART|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
 |02|飄える翼追い掛けて|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;侵寇の王女篇|
 |FINAL|FIN4LE 〜終止線の彼方へ〜|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.1|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第4回 Bコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第4回 Bコース''|
 |01|DIABLOSIS::N&amp;#257;ga|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|Verse IV|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |FINAL|Σmbry&amp;#216;|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.6|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Aコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第5回 Aコース''|
 |01|FLOWER|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
-|02|GERBERA-For Finalists-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|02|GERBERA-For Finalists-|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|CENTER:-|
 |FINAL|Bl∞min'|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;暁光の翼篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第5回 Bコース''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第5回 Bコース''|
 |01|ラクガキスト|BGCOLOR(#f19):''VVD''|BGCOLOR(#fdf):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|色を喪った街|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;幻想御伽篇|
 |FINAL|いまきみに|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;宵闇の翼篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第6回''|
-|01|Elemental Creation|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|-|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第6回''|
+|01|Elemental Creation|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|CENTER:-|
 |02|Absolute Domination|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[Ω Dimension&gt;SOUND VOLTEX EXCEED GEAR/Ω Dimension]]&amp;br;Phase.5+|
 |FINAL|AP&amp;#216;CALYPSE RAY|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;憧憬の銀幕篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第7回''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第7回''|
 |01|Growth Memories|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|All We Need is HAPPY END!!!|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |FINAL|HeaveИ's Rain|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;彩虹の銀幕篇|
-|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):CENTER:''第8回''|
+|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''第8回''|
 |01|XROSS INFECTION|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|[[BLASTER GATE&gt;SOUND VOLTEX EXCEED GEAR/BLASTER GATE#BLASTER_GATE]]|
 |02|ЯeviveR|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;幻想御伽篇|
 |FINAL|Λkasha|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):20|[[HEXA DIVER&gt;SOUND VOLTEX EXCEED GEAR/HEXA DIVER]]&amp;br;CODE：DimiourGEAR|
@@ -919,7 +922,7 @@
 --いずれかのコースをプレーすると特別称号「''天晴''」を獲得。
 
 |TRACK|曲名|難易度|Lv|h
-|CENTER:||COLOR(white):CENTER:|CENTER:|c
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''10周年記念コース(梅)''|
 |01|Joyeuse|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):4|
 |02|じゅーじゅー&amp;#9829;焼肉の火からフェニックス！？〜再誕の†炭火焼き〜|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
@@ -947,7 +950,7 @@
 --いずれかのコース完走で特別称号「''詠鰤琉''」を獲得。
 
 |TRACK|曲名|難易度|Lv|h
-|CENTER:||COLOR(white):CENTER:|CENTER:|c
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''新生活応援コース(入学)''|
 |01|Foolish Hero|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):4|
 |02|#FairyJoke #SDVX_Edit|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):3|
@@ -978,7 +981,7 @@
 --いずれかのコースをプレー(クリア不問)すると予選期間終了後に限定アピールカードを獲得。
 
 |TRACK|曲名|難易度|Lv|h
-|CENTER:||COLOR(white):CENTER:|CENTER:|c
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''Red Bull 5G 2022 エンジョイコース(梅)''|
 |01|Redshift|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|crossing blue|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
@@ -1006,7 +1009,7 @@
 --いずれかのコース完走で特別称号「''U.S.O.''」を獲得。
 
 |TRACK|曲名|難易度|Lv|h
-|CENTER:||COLOR(white):CENTER:|CENTER:|c
+|CENTER:||CENTER:COLOR(white):|CENTER:|c
 |&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''春のボルテ祭りコース2023【梅】''|
 |01|ULTiMATE INFLATiON|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
 |02|Sacrifice and Faith|BGCOLOR(#63a):''NOV''|BGCOLOR(#ddf):6|
@@ -1024,7 +1027,6 @@
 |02|マキシマ先生の満開!!ヘヴンリー講座&amp;#9829;|BGCOLOR(#08f):''HVN''|BGCOLOR(#cef):1|
 |FINAL|エクシード仮面ちゃんのちょっと一線をえくしーどしたEXCEED講座|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):1|
 
-
 ***KAC(2023)予選コース [#kac2023]
 -2023/08/09〜2023/10/24限定
 --KAC(2023)のSOUND VOLTEX部門にエントリーすると出現。
@@ -1034,12 +1036,12 @@
 ---コースを完走すると特別スキル称号を獲得。予選ラウンドAでは「''完喰''」、予選ラウンドBでは「''夢吹''」がもらえる。
 
 |TRACK|曲名|難易度|Lv|KAC予選集計対象期間&amp;br;(プレー可能期間)|h
-|CENTER:||COLOR(white):CENTER:|CENTER:||c
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【完喰】''|
+|CENTER:||CENTER:COLOR(white):|&gt;|CENTER:|c
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【完喰】''|
 |01|パーフェクトイーター|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2023/08/09 10:00&amp;br;〜2023/09/12 18:00|
 |02|Preserved Valkyria|BGCOLOR(#f60):''GRV''|BGCOLOR(#fdc):19|~|
 |FINAL|Rhapsody &amp;#9881;f Triumph|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【夢吹】''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''KAC 2023 チャレンジコース【夢吹】''|
 |01|ユメブキ|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):18|2023/09/20 10:00&amp;br;〜2023/10/24 18:00|
 |02|†:OLPHEUX:†|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
 |FINAL|ZEUS|BGCOLOR(#9ac):''MXM''|BGCOLOR(#eef):19|~|
@@ -1049,12 +1051,12 @@
 ---こちらのコースを完走しても特別スキル称号を獲得。予選ラウンドAでは「''完喰''」、予選ラウンドBでは「''夢吹''」がもらえる。
 
 |TRACK|曲名|難易度|Lv|プレー可能期間|h
-|CENTER:||COLOR(white):CENTER:|CENTER:||c
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【完喰】''|
+|CENTER:||CENTER:COLOR(white):|&gt;|CENTER:|c
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【完喰】''|
 |01|パーフェクトイーター|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|2023/08/09 10:00&amp;br;〜2023/09/12 18:00|
 |02|Preserved Valkyria|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):12|~|
 |FINAL|Rhapsody &amp;#9881;f Triumph|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
-|&gt;|&gt;|&gt;|&gt;|CENTER:BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【夢吹】''|
+|&gt;|&gt;|&gt;|&gt;|BGCOLOR(#C7E7FF):''KAC 2023 エンジョイコース【夢吹】''|
 |01|ユメブキ|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):13|2023/09/20 10:00&amp;br;〜2023/10/24 18:00|
 |02|†:OLPHEUX:†|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
 |FINAL|ZEUS|BGCOLOR(#ec0):''ADV''|BGCOLOR(#ffc):14|~|
